@@ -1,19 +1,3 @@
-// const Navbar = () => {
-//     return (
-//         <div className='flex justify-center '>
-//             <ul className='flex bg-transparent'>
-//                 <li className='text-white text-lg font-normal mt-3 mb-1 duration-300 hover:-translate-y-0.5 hover:cursor-pointer hover:scale-105'>Home</li>
-//                 <li className='text-white text-lg font-normal mt-3 mb-1 ml-15 duration-300 hover:-translate-y-0.5 hover:cursor-pointer hover:scale-105'>About</li>
-//                 <li className='text-white text-lg font-normal mt-3 mb-1 ml-15 duration-300 hover:-translate-y-0.5 hover:cursor-pointer hover:scale-105'>Gallery</li>
-//                 <li className='text-white text-lg font-normal mt-3 mb-1 ml-15 duration-300 hover:-translate-y-0.5 hover:cursor-pointer hover:scale-105'>Telescopes</li>
-//             </ul>
-//         </div>
-//     )
-// }
-
-// export default Navbar;
-
-
 import React from 'react';
 import { Link } from 'react-scroll';
 

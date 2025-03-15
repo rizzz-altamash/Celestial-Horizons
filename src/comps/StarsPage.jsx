@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 
 const StarsPage = () => {
 
@@ -311,7 +311,6 @@ const StarsPage = () => {
           0% { transform: rotate(0deg) translateX(30px) rotate(0deg); }
           100% { transform: rotate(360deg) translateX(30px) rotate(-360deg); }
         }
-
         @keyframes orbit-sirius-slow {
           0% { transform: rotate(0deg) translateX(45px) rotate(0deg); }
           100% { transform: rotate(360deg) translateX(45px) rotate(-360deg); }
@@ -323,7 +322,6 @@ const StarsPage = () => {
           50% { transform: scale(1.2); opacity: 0.8; }
           100% { transform: scale(0.8); opacity: 0.3; }
         }
-
         @keyframes betelgeuse-pulse-slow {
           0% { transform: scale(0.7); opacity: 0.2; }
           50% { transform: scale(1.3); opacity: 0.7; }
@@ -335,7 +333,6 @@ const StarsPage = () => {
           0%, 100% { opacity: 0.2; box-shadow: 0 0 5px 2px rgba(234, 179, 8, 0.3); }
           50% { opacity: 0.8; box-shadow: 0 0 15px 5px rgba(234, 179, 8, 0.6); }
         }
-
         @keyframes polaris-rays {
           0% { transform: rotate(0deg); opacity: 0.3; }
           100% { transform: rotate(360deg); opacity: 0.7; }
@@ -346,7 +343,6 @@ const StarsPage = () => {
           0% { transform: rotate(0deg) scale(1); }
           100% { transform: rotate(360deg) scale(1); }
         }
-
         @keyframes vega-orbit {
           0% { opacity: 0; }
           20% { opacity: 0.7; }
@@ -360,7 +356,6 @@ const StarsPage = () => {
           50% { transform: translateX(15px); }
           100% { transform: translateX(-15px); }
         }
-
         @keyframes proxima-orbit {
           0% { transform: rotate(0deg); }
           100% { transform: rotate(360deg); }
@@ -371,7 +366,6 @@ const StarsPage = () => {
           0% { transform: scale(0.2); opacity: 0.9; }
           100% { transform: scale(2); opacity: 0; }
         }
-
         @keyframes antares-glow {
           0% { opacity: 0.3; box-shadow: 0 0 8px 2px rgba(249, 115, 22, 0.3); }
           50% { opacity: 0.9; box-shadow: 0 0 20px 10px rgba(249, 115, 22, 0.7); }
@@ -384,7 +378,6 @@ const StarsPage = () => {
         .animate-orbit-sirius {
           animation: orbit-sirius 12s linear infinite;
         }
-
         .animate-orbit-sirius-slow {
           animation: orbit-sirius-slow 18s linear infinite;
         }
@@ -392,7 +385,6 @@ const StarsPage = () => {
         .animate-betelgeuse-pulse {
           animation: betelgeuse-pulse 8s ease-in-out infinite;
         }
-
         .animate-betelgeuse-pulse-slow {
           animation: betelgeuse-pulse-slow 12s ease-in-out infinite;
         }
@@ -400,7 +392,6 @@ const StarsPage = () => {
         .animate-polaris-twinkle {
           animation: polaris-twinkle 4s ease-in-out infinite;
         }
-
         .animate-polaris-rays {
           animation: polaris-rays 15s linear infinite;
         }
@@ -408,7 +399,6 @@ const StarsPage = () => {
         .animate-vega-spin {
           animation: vega-spin 8s linear infinite;
         }
-
         .animate-vega-orbit {
           animation: vega-orbit 10s linear infinite;
         }
@@ -416,7 +406,6 @@ const StarsPage = () => {
         .animate-proxima-binary {
           animation: proxima-binary 5s ease-in-out infinite;
         }
-
         .animate-proxima-orbit {
           animation: proxima-orbit 10s linear infinite;
         }
@@ -424,7 +413,6 @@ const StarsPage = () => {
         .animate-antares-wave {
           animation: antares-wave 4s ease-out infinite;
         }
-
         .animate-antares-glow {
           animation: antares-glow 6s infinite;
         }
@@ -435,7 +423,6 @@ const StarsPage = () => {
         .animate-orbit {
           animation: orbit 10s linear infinite;
         }
-        
         .animate-orbit-slow {
           animation: orbit-slow 15s linear infinite;
         }
@@ -444,7 +431,6 @@ const StarsPage = () => {
         .cosmic-card {
           transition: all 0.3s ease;
         }
-        
         .cosmic-card:hover {
           transform: translateY(-5px);
           box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
