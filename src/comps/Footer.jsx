@@ -5,7 +5,7 @@ const Footer = () => {
 
     // Social media data with URLs
     const socialMedia = [
-        { icon: "linkedin", label: "LinkedIn", url: "https://linkedin.com/in/md-altamash-riwzi/" },
+        { icon: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/in/md-altamash-rizwi-1865b2322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         { icon: "instagram", label: "Instagram", url: "https://instagram.com/rizzz_altamash/" },
         { icon: "twitter", label: "Twitter", url: "https://twitter.com/yourusername" },
         { icon: "facebook", label: "Facebook", url: "https://facebook.com/share/193L6U7aHQ/" }
@@ -72,7 +72,6 @@ const Footer = () => {
               </h4>
               <ul className="space-y-2">
                 {[
-                  "Constellation Map",
                   "Coming Soon ...",
                   "Coming Soon ...",
                   "Coming Soon ..."
@@ -149,7 +148,9 @@ const Footer = () => {
               {["Terms", "Privacy", "Cookies", "Sitemap"].map((item, index) => (
                 <a 
                   key={index} 
-                  href="#" 
+                  // href="#" 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-sm text-purple-400 hover:text-purple-200 transition-colors duration-300"
                 >
                   {item}

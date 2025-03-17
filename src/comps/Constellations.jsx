@@ -138,7 +138,7 @@ const ConstellationsPage = () => {
           </div>
         </section>
 
-        {/* Famous Constellations Section with unique animation styles */}
+        {/* Famous Constellations Section with animations */}
         <section className="mb-16">
           <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-indigo-200">Notable Constellations</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

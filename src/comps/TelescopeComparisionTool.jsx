@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 import { telescopes } from '../data/telescopesComparision';
 
 const TelescopeComparisonTool = ({ isVisible, onClose }) => {
-  // State for filters
+  // State for filters 
   const [filters, setFilters] = useState({
     type: 'All Types',
     priceRange: 'Any Price',
     experienceLevel: 'All Levels'
   });
   
-  // State to track if comparison has been run
+  // State to track if comparison has been run 
   const [showResults, setShowResults] = useState(false);
   
-  // Filter telescopes based on current selections
+  // Filter telescopes based on current selections 
   const filteredTelescopes = telescopes.filter(telescope => {
     // Type filter
     if (filters.type !== 'All Types' && telescope.type !== filters.type) {

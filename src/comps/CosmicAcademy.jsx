@@ -9,16 +9,12 @@ const CosmicAcademyPage = () => {
   const canvasRef = useRef(null);
   const [activeLesson, setActiveLesson] = useState(null);
   const [activeTab, setActiveTab] = useState('astronomy');
-  // Add this to your component's state
   const [showAdvancedTopics, setShowAdvancedTopics] = useState(false);
   const [showComparisonTool, setShowComparisonTool] = useState(false);
 
-  // Add this function to handle the button click
   const handleAdvancedTopicsClick = () => {
     setShowAdvancedTopics(true);
   };
-  
-  // Add this function to handle closing the expanded view
   const handleCloseAdvancedTopics = () => {
     setShowAdvancedTopics(false);
   };
@@ -32,7 +28,7 @@ const CosmicAcademyPage = () => {
     
     // Create nebula effect
     const particles = [];
-    const particleCount = 100; // 100
+    const particleCount = 100;
     const colorPalette = [
       'rgba(255, 100, 100, 0.8)', // Red
       'rgba(255, 150, 50, 0.8)',  // Orange
@@ -203,7 +199,7 @@ const CosmicAcademyPage = () => {
             ))}
             </div>
             
-            {/* Advanced Topics Section - Modified to expand with animation */}
+            {/* Advanced Topics Section - Modified to expand with animation hehe */}
             <div 
             className={`mt-12 relative overflow-hidden transition-all duration-700 ease-in-out
             ${showAdvancedTopics 
@@ -213,7 +209,7 @@ const CosmicAcademyPage = () => {
             >
             <div className="absolute top-0 left-0 w-full h-full bg-[url('/api/placeholder/1200/400')] opacity-10 mix-blend-overlay"></div>
             
-            {/* Content container with padding that adjusts based on expanded state */}
+            {/* Content container with padding that adjusts based on expanded state lesss go */}
             <div className={`relative ${showAdvancedTopics ? 'max-w-7xl mx-auto px-4 py-12' : ''}`}>
                 
                 {/* Header section */}
@@ -461,14 +457,14 @@ const CosmicAcademyPage = () => {
                               <p className="text-purple-100">
                                 {constellation.whereTo}
                               </p>
-                              <div className="mt-4">
+                              {/* <div className="mt-4">
                                 <button className="px-4 py-2 bg-purple-700/50 hover:bg-purple-600/50 rounded-lg transition-colors duration-300 flex items-center">
                                   <span>Interactive Star Map</span>
                                   <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                                   </svg>
                                 </button>
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </>

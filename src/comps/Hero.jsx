@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ScrollDownIndicator from './ScrolldownIndicator';
 
 const HeroSection = () => {
   const headings = [
@@ -35,9 +36,11 @@ const HeroSection = () => {
       <h1 className="text-4xl md:text-6xl font-bold">{text}
         <span className="animate-blink text-[rgba(255,255,255,0.7)] font-normal">|</span>
       </h1>
-      <p className="text-lg md:text-xl mt-4">Discover the secrets of the universe</p>
-      <p className="text-lg md:text-xl ">Journey through the cosmos with us as we explore the mysteries of the night sky</p>
-      <p className="text-lg md:text-xl ">From the ancient myths to the cutting-edge discoveries, the universe awaits your exploration</p>
+      <p className="para text-lg md:text-xl mt-4">Discover the secrets of the universe</p>
+      <p className="para text-lg md:text-xl ">Journey through the cosmos with us as we explore the mysteries of the night sky</p>
+      <p className="para text-lg md:text-xl ">From the ancient myths to the cutting-edge discoveries, the universe awaits your exploration</p>
+
+      <ScrollDownIndicator/>
 
       <style jsx>{`
         @keyframes blink {
