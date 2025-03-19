@@ -28,7 +28,7 @@ const CosmicAcademyPage = () => {
     
     // Create nebula effect
     const particles = [];
-    const particleCount = 100;
+    const particleCount = 77; // 100
     const colorPalette = [
       'rgba(255, 100, 100, 0.8)', // Red
       'rgba(255, 150, 50, 0.8)',  // Orange
