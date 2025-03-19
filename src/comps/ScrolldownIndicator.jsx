@@ -84,14 +84,14 @@ const ScrollDownIndicator = () => {
   return (
     <div 
       ref={indicatorRef}
-      className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center cursor-pointer"
+      className="indicator absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center cursor-pointer"
       style={{
         zIndex: 10,
         transition: 'opacity 0.3s ease'
       }}
       aria-label="Scroll down to explore"
     >
-      <div className="scrollicon text-white text-sm mb-2 font-light tracking-widest">EXPLORE</div>
+      <div className="scrollicon text-white text-sm mb-2 font-light tracking-widest">SCROLL</div>
       <div className="scrollicon flex flex-col items-center relative">
         {/* Mouse outline */}
         <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center p-1 relative">

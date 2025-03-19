@@ -1,16 +1,267 @@
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger'
 import React from 'react';
 
 const StarsPage = () => {
+  
+  useGSAP(()=>{
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".starheading",{
+      y:100,
+      opacity:0,
+      scale:1.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".starheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".starintro",{
+      opacity:0,
+      scale:0.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".starintro",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".startypeheading",{
+      y:50,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".startypeheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".mainsequencestars",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".mainsequencestars",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".redgiants",{
+      x:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".redgiants",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".whitedwarfs",{
+      x:-250,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".whitedwarfs",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".supergiants",{
+      x:250,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".supergiants",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".starlifecycle",{
+      y:100,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".starlifecycle",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".timelineconnector",{
+      opacity:0,
+      scale:0.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".timelineconnector",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".dot1",{
+      opacity:0,
+      scale:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".dot1",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".birthdiv",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".birthdiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".lifediv",{
+      x:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".lifediv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".deathdiv",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".deathdiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".notablestarsheading",{
+      y:50,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".notablestarsheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".sirius",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".sirius",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".polaris",{
+      x:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".polaris",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".betelgeuse",{
+      y:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".betelgeuse",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".vega",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".vega",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".antares",{
+      x:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".antares",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".proximacentauri",{
+      y:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".proximacentauri",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".observingstarsheading",{
+      y:50,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".observingstarsheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".stargazingdiv",{
+      y:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".stargazingdiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+  })
 
   return (
-    <div id='stars' className="relative text-white min-h-screen overflow-hidden">
+    <div id='stars' className="relative text-white min-h-screen overflow-hidden starpagegsap">
       
       {/* Gradient overlay */}
       <div className="fixed top-0 left-0 w-full h-full bg-gradient-to-b from-blue-900/40 via-purple-900/40 to-black/60 -z-5"></div>
       
       <div className="container mx-auto px-4 py-16 relative z-10">
         {/* Page Title with cosmic glow effect */}
-        <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center">
+        <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center starheading">
           <span className="inline-block relative">
             The Wonders of Stars
             <span className="absolute -inset-1 blur-xl bg-blue-500/20 -z-10 rounded-full"></span>
@@ -18,7 +269,7 @@ const StarsPage = () => {
         </h1>
         
         {/* Introduction Section */}
-        <section className="mb-16 max-w-4xl mx-auto">
+        <section className="mb-16 max-w-4xl mx-auto starintro">
           <div className="glass-card p-8 rounded-2xl relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-blue-900/10 backdrop-blur-sm -z-10"></div>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-blue-200">What Are Stars?</h2>
@@ -37,11 +288,11 @@ const StarsPage = () => {
         
         {/* Star Classification Section */}
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-blue-200">
+          <h2 className="startypeheading text-2xl md:text-3xl font-semibold mb-8 text-center text-blue-200">
             Types of Stars
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="cosmic-card bg-gradient-to-br from-blue-900/40 to-blue-700/20 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm hover:from-blue-800/50 hover:to-blue-600/30 transition duration-300">
+            <div className="mainsequencestars cosmic-card bg-gradient-to-br from-blue-900/40 to-blue-700/20 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm hover:from-blue-800/50 hover:to-blue-600/30 transition duration-300">
               <div className="cosmic-orb bg-blue-400/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-blue-300">Main Sequence Stars</h3>
               <p className="leading-relaxed">
@@ -50,7 +301,7 @@ const StarsPage = () => {
                 main sequence star, producing energy through nuclear fusion.
               </p>
             </div>
-            <div className="cosmic-card bg-gradient-to-br from-red-900/40 to-red-700/20 p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm hover:from-red-800/50 hover:to-red-600/30 transition duration-300">
+            <div className="redgiants cosmic-card bg-gradient-to-br from-red-900/40 to-red-700/20 p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm hover:from-red-800/50 hover:to-red-600/30 transition duration-300">
               <div className="cosmic-orb bg-red-400/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-red-300">Red Giants</h3>
               <p className="leading-relaxed">
@@ -59,7 +310,7 @@ const StarsPage = () => {
                 Betelgeuse is a famous example of a red giant.
               </p>
             </div>
-            <div className="cosmic-card bg-gradient-to-br from-gray-200/30 to-blue-100/10 p-6 rounded-2xl border border-gray-300/30 backdrop-blur-sm hover:from-gray-100/40 hover:to-blue-50/20 transition duration-300">
+            <div className="whitedwarfs cosmic-card bg-gradient-to-br from-gray-200/30 to-blue-100/10 p-6 rounded-2xl border border-gray-300/30 backdrop-blur-sm hover:from-gray-100/40 hover:to-blue-50/20 transition duration-300">
               <div className="cosmic-orb bg-white/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-gray-100">White Dwarfs</h3>
               <p className="leading-relaxed">
@@ -68,7 +319,7 @@ const StarsPage = () => {
                 to become neutron stars. They're incredibly dense and hot.
               </p>
             </div>
-            <div className="cosmic-card bg-gradient-to-br from-yellow-600/40 to-yellow-400/20 p-6 rounded-2xl border border-yellow-500/30 backdrop-blur-sm hover:from-yellow-500/50 hover:to-yellow-300/30 transition duration-300">
+            <div className="supergiants cosmic-card bg-gradient-to-br from-yellow-600/40 to-yellow-400/20 p-6 rounded-2xl border border-yellow-500/30 backdrop-blur-sm hover:from-yellow-500/50 hover:to-yellow-300/30 transition duration-300">
               <div className="cosmic-orb bg-yellow-300/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-yellow-200">Supergiants</h3>
               <p className="leading-relaxed">
@@ -82,15 +333,15 @@ const StarsPage = () => {
         
         {/* Star Life Cycle Section */}
         <section className="mb-16 max-w-5xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-blue-200">The Life Cycle of Stars</h2>
+          <h2 className="starlifecycle text-2xl md:text-3xl font-semibold mb-8 text-center text-blue-200">The Life Cycle of Stars</h2>
           <div className="relative">
             {/* Timeline connector */}
-            <div className="absolute top-0 bottom-0 left-1/2 w-1 bg-gradient-to-b from-green-500 via-blue-500 to-red-500 transform -translate-x-1/2 rounded-full"></div>
+            <div className="timelineconnector absolute top-0 bottom-0 left-1/2 w-1 bg-gradient-to-b from-green-500 via-blue-500 to-red-500 transform -translate-x-1/2 rounded-full"></div>
             
             {/* Timeline items */}
             <div className="grid grid-cols-1 gap-12">
               <div className="flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
+                <div className="birthdiv md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
                   <h3 className="text-2xl font-medium mb-3 text-green-300">Birth</h3>
                   <div className="cosmic-card bg-gradient-to-br from-green-800/40 to-green-600/20 p-6 rounded-2xl border border-green-500/30 backdrop-blur-sm">
                     <p className="leading-relaxed">
@@ -102,12 +353,12 @@ const StarsPage = () => {
                   </div>
                 </div>
                 <div className="md:w-1/2 md:pl-8 hidden md:block"></div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-green-500 border-2 border-white z-10"></div>
+                <div className="dot1 absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-green-500 border-2 border-white z-10"></div>
               </div>
               
               <div className="flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 md:pr-8 hidden md:block"></div>
-                <div className="md:w-1/2 md:pl-8">
+                <div className="lifediv md:w-1/2 md:pl-8">
                   <h3 className="text-2xl font-medium mb-3 text-blue-300 md:text-left">Life</h3>
                   <div className="cosmic-card bg-gradient-to-br from-blue-800/40 to-blue-600/20 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm">
                     <p className="leading-relaxed">
@@ -118,11 +369,11 @@ const StarsPage = () => {
                     </p>
                   </div>
                 </div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-blue-500 border-2 border-white z-10"></div>
+                <div className="dot1 absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-blue-500 border-2 border-white z-10"></div>
               </div>
               
               <div className="flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
+                <div className="deathdiv md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
                   <h3 className="text-2xl font-medium mb-3 text-red-300">Death</h3>
                   <div className="cosmic-card bg-gradient-to-br from-red-800/40 to-red-600/20 p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm">
                     <p className="leading-relaxed">
@@ -134,7 +385,7 @@ const StarsPage = () => {
                   </div>
                 </div>
                 <div className="md:w-1/2 md:pl-8 hidden md:block"></div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-red-500 border-2 border-white z-10"></div>
+                <div className="dot1 absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-red-500 border-2 border-white z-10"></div>
               </div>
             </div>
           </div>
@@ -142,10 +393,10 @@ const StarsPage = () => {
         
         {/* Famous Stars Section with unique animation styles */}
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-blue-200">Notable Stars</h2>
+          <h2 className="notablestarsheading text-2xl md:text-3xl font-semibold mb-8 text-center text-blue-200">Notable Stars</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Sirius - Classic orbital motion */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-transparent overflow-hidden group">
+            <div className="sirius cosmic-card relative p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-transparent overflow-hidden group">
               {/* <div className="absolute inset-0 bg-blue-500/5 backdrop-blur-sm -z-10"></div> */}
               <div className="absolute w-24 h-24 rounded-full border border-blue-400/30 animate-orbit-sirius opacity-90 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="absolute w-40 h-40 rounded-full border border-blue-400/20 animate-orbit-sirius-slow opacity-90 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -155,7 +406,7 @@ const StarsPage = () => {
             </div>
             
             {/* Betelgeuse - Pulsating red giant */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm bg-gradient-to-br from-red-900/40 to-transparent overflow-hidden group">
+            <div className="betelgeuse cosmic-card relative p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm bg-gradient-to-br from-red-900/40 to-transparent overflow-hidden group">
               {/* <div className="absolute inset-0 bg-red-500/5 backdrop-blur-sm -z-10"></div> */}
               <div className="absolute w-16 h-16 rounded-full border border-red-400/40 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-betelgeuse-pulse-slow opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
               <div className="absolute w-32 h-32 rounded-full border border-red-400/30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-betelgeuse-pulse opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
@@ -167,7 +418,7 @@ const StarsPage = () => {
             </div>
             
             {/* Polaris - North Star with fixed position and twinkling rays */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-yellow-500/30 backdrop-blur-sm bg-gradient-to-br from-yellow-900/40 to-transparent overflow-hidden group">
+            <div className="polaris cosmic-card relative p-6 rounded-2xl border border-yellow-500/30 backdrop-blur-sm bg-gradient-to-br from-yellow-900/40 to-transparent overflow-hidden group">
               {/* <div className="absolute inset-0 bg-yellow-500/5 backdrop-blur-sm -z-10"></div> */}
               <div className="star-position absolute top-1/3 left-2/3">
                 {/* <div className="absolute w-4 h-4 bg-yellow-300 rounded-full animate-polaris-twinkle opacity-0 group-hover:opacity-100 transition-duration-500"></div> */}
@@ -200,7 +451,7 @@ const StarsPage = () => {
             </div>
             
             {/* Vega - Spinning animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm bg-gradient-to-br from-purple-900/40 to-transparent overflow-hidden group">
+            <div className="vega cosmic-card relative p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm bg-gradient-to-br from-purple-900/40 to-transparent overflow-hidden group">
               {/* <div className="absolute inset-0 bg-purple-500/5 backdrop-blur-sm -z-10"></div> */}
               <div className="absolute top-1/2 left-2/3 -translate-x-1/2 -translate-y-1/2">
                 <div className="absolute w-6 h-6 bg-purple-400 rounded-full animate-vega-spin blur-xs opacity-50 group-hover:opacity-90 transition-opacity duration-500"></div>
@@ -218,7 +469,7 @@ const StarsPage = () => {
             </div>
             
             {/* Proxima Centauri - Binary system motion */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-green-500/30 backdrop-blur-sm bg-gradient-to-br from-green-900/40 to-transparent overflow-hidden group">
+            <div className="proximacentauri cosmic-card relative p-6 rounded-2xl border border-green-500/30 backdrop-blur-sm bg-gradient-to-br from-green-900/40 to-transparent overflow-hidden group">
               {/* <div className="absolute inset-0 bg-green-500/5 backdrop-blur-sm -z-10"></div> */}
               <div className="absolute top-1/3 left-2/3 -translate-x-1/2 -translate-y-1/2">
                 <div className="absolute w-15 h-15 -top-3 left-10 rounded-full border border-green-400/50 animate-proxima-orbit opacity-50 group-hover:opacity-100 transition-opacity duration-500">
@@ -232,7 +483,7 @@ const StarsPage = () => {
             </div>
             
             {/* Antares - Supernova-like pulsing waves */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-orange-500/30 backdrop-blur-sm bg-gradient-to-br from-orange-900/40 to-transparent overflow-hidden group">
+            <div className="antares cosmic-card relative p-6 rounded-2xl border border-orange-500/30 backdrop-blur-sm bg-gradient-to-br from-orange-900/40 to-transparent overflow-hidden group">
               {/* <div className="absolute inset-0 bg-orange-500/5 backdrop-blur-sm -z-10"></div> */}
               <div className="absolute top-1/3 right-1/3">
                 {/* <div className="absolute blur-[0.05rem] w-5 h-5 bg-orange-500 rounded-full animate-antares-glow opacity-0 group-hover:opacity-90 transition-opacity duration-500"></div> */}
@@ -254,8 +505,8 @@ const StarsPage = () => {
         
         {/* Observation Section */}
         <section className="mb-16 max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-blue-200">Observing Stars</h2>
-          <div className="cosmic-card p-8 rounded-2xl border border-blue-500/30 backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-blue-700/10 relative overflow-hidden">
+          <h2 className="observingstarsheading text-2xl md:text-3xl font-semibold mb-8 text-center text-blue-200">Observing Stars</h2>
+          <div className="stargazingdiv cosmic-card p-8 rounded-2xl border border-blue-500/30 backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-blue-700/10 relative overflow-hidden">
             <div className="cosmic-particles absolute inset-0 -z-10"></div>
             <h3 className="text-xl font-medium mb-4 text-blue-300">Tips for Stargazing</h3>
             <ul className="space-y-4">

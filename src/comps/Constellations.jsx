@@ -1,6 +1,345 @@
-import React, { useEffect, useRef } from 'react';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger'
+import React from 'react';
 
 const ConstellationsPage = () => {
+
+  useGSAP(()=>{
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".constellationsheading",{
+      y:100,
+      opacity:0,
+      scale:1.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".constellationsheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".constellationsintro",{
+      opacity:0,
+      scale:0.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".constellationsintro",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".constellationcategoriesheading",{
+      y:50,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".constellationcategoriesheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".zodiac",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".zodiac",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".northern",{
+      x:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".northern",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".southern",{
+      x:-250,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".southern",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".seasonal",{
+      x:250,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".seasonal",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".culturalsignificanceheading",{
+      y:100,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".culturalsignificanceheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".timelineconnector2",{
+      opacity:0,
+      scale:0.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".timelineconnector2",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".dot2",{
+      opacity:0,
+      scale:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".dot2",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".ancientdiv",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".ancientdiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".mythologicaldiv",{
+      x:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".mythologicaldiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".agriculturaldiv",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".agriculturaldiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".notableconstellationsheading",{
+      y:50,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".notableconstellationsheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".orion",{
+      x:300,
+      y:100,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".orion",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".cassiopeia",{
+      x:-300,
+      y:100,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".cassiopeia",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".ursamajor",{
+      y:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".ursamajor",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".cygnus",{
+      x:200,
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".cygnus",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".crux",{
+      x:-200,
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".crux",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".scorpius",{
+      y:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".scorpius",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".pegasus",{
+      x:200,
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".pegasus",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".draco",{
+      x:-200,
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".draco",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".aquila",{
+      y:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".aquila",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".leo",{
+      x:200,
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".leo",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".taurus",{
+      x:-200,
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".taurus",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".ursaminor",{
+      y:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".ursaminor",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".andromeda",{
+      x:200,
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".andromeda",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".hydrus",{
+      x:-200,
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".hydrus",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".lyra",{
+      y:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".lyra",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+  })
+
 
   return (
     <div id='constellations' className="relative text-white min-h-screen overflow-hidden">
@@ -10,7 +349,7 @@ const ConstellationsPage = () => {
       
       <div className="container mx-auto px-4 py-16 relative z-10">
         {/* Page Title with cosmic glow effect */}
-        <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center">
+        <h1 className="constellationsheading text-4xl md:text-6xl font-bold mb-8 text-center">
           <span className="inline-block relative">
             Celestial Constellations
             <span className="absolute -inset-1 blur-xl bg-indigo-500/20 -z-10 rounded-full"></span>
@@ -18,7 +357,7 @@ const ConstellationsPage = () => {
         </h1>
         
         {/* Introduction Section */}
-        <section className="mb-16 max-w-4xl mx-auto">
+        <section className="constellationsintro mb-16 max-w-4xl mx-auto">
           <div className="glass-card p-8 rounded-2xl relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-indigo-900/10 backdrop-blur-sm -z-10"></div>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-indigo-200">What Are Constellations?</h2>
@@ -37,11 +376,11 @@ const ConstellationsPage = () => {
         
         {/* Constellation Types Section */}
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-indigo-200">
+          <h2 className="constellationcategoriesheading text-2xl md:text-3xl font-semibold mb-8 text-center text-indigo-200">
             Constellation Categories
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="cosmic-card bg-gradient-to-br from-indigo-900/40 to-indigo-700/20 p-6 rounded-2xl border border-indigo-500/30 backdrop-blur-sm hover:from-indigo-800/50 hover:to-indigo-600/30 transition duration-300">
+            <div className="zodiac cosmic-card bg-gradient-to-br from-indigo-900/40 to-indigo-700/20 p-6 rounded-2xl border border-indigo-500/30 backdrop-blur-sm hover:from-indigo-800/50 hover:to-indigo-600/30 transition duration-300">
               <div className="cosmic-orb bg-indigo-400/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-indigo-300">Zodiac Constellations</h3>
               <p className="leading-relaxed">
@@ -50,7 +389,7 @@ const ConstellationsPage = () => {
                 Cancer, Leo, Virgo, Libra, Scorpius, Sagittarius, Capricornus, Aquarius, and Pisces.
               </p>
             </div>
-            <div className="cosmic-card bg-gradient-to-br from-violet-900/40 to-violet-700/20 p-6 rounded-2xl border border-violet-500/30 backdrop-blur-sm hover:from-violet-800/50 hover:to-violet-600/30 transition duration-300">
+            <div className="northern cosmic-card bg-gradient-to-br from-violet-900/40 to-violet-700/20 p-6 rounded-2xl border border-violet-500/30 backdrop-blur-sm hover:from-violet-800/50 hover:to-violet-600/30 transition duration-300">
               <div className="cosmic-orb bg-violet-400/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-violet-300">Northern Constellations</h3>
               <p className="leading-relaxed">
@@ -59,7 +398,7 @@ const ConstellationsPage = () => {
                 are circumpolar, meaning they never set below the horizon.
               </p>
             </div>
-            <div className="cosmic-card bg-gradient-to-br from-blue-900/40 to-blue-700/20 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm hover:from-blue-800/50 hover:to-blue-600/30 transition duration-300">
+            <div className="southern cosmic-card bg-gradient-to-br from-blue-900/40 to-blue-700/20 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm hover:from-blue-800/50 hover:to-blue-600/30 transition duration-300">
               <div className="cosmic-orb bg-blue-400/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-blue-300">Southern Constellations</h3>
               <p className="leading-relaxed">
@@ -68,7 +407,7 @@ const ConstellationsPage = () => {
                 explorers during the Age of Discovery in the 16th and 17th centuries.
               </p>
             </div>
-            <div className="cosmic-card bg-gradient-to-br from-cyan-900/40 to-cyan-700/20 p-6 rounded-2xl border border-cyan-500/30 backdrop-blur-sm hover:from-cyan-800/50 hover:to-cyan-600/30 transition duration-300">
+            <div className="seasonal cosmic-card bg-gradient-to-br from-cyan-900/40 to-cyan-700/20 p-6 rounded-2xl border border-cyan-500/30 backdrop-blur-sm hover:from-cyan-800/50 hover:to-cyan-600/30 transition duration-300">
               <div className="cosmic-orb bg-cyan-400/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-cyan-300">Seasonal Constellations</h3>
               <p className="leading-relaxed">
@@ -82,15 +421,15 @@ const ConstellationsPage = () => {
         
         {/* Historical Significance Section */}
         <section className="mb-16 max-w-5xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-indigo-200">Cultural Significance</h2>
+          <h2 className="culturalsignificanceheading text-2xl md:text-3xl font-semibold mb-8 text-center text-indigo-200">Cultural Significance</h2>
           <div className="relative">
             {/* Timeline connector */}
-            <div className="absolute top-0 bottom-0 left-1/2 w-1 bg-gradient-to-b from-yellow-500 via-blue-500 to-teal-500 transform -translate-x-1/2 rounded-full"></div>
+            <div className="timelineconnector2 absolute top-0 bottom-0 left-1/2 w-1 bg-gradient-to-b from-yellow-500 via-blue-500 to-teal-500 transform -translate-x-1/2 rounded-full"></div>
             
             {/* Timeline items */}
             <div className="grid grid-cols-1 gap-12">
               <div className="flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
+                <div className="ancientdiv md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
                   <h3 className="text-2xl font-medium mb-3 text-yellow-300">Ancient <br/> Navigators</h3>
                   <div className="cosmic-card bg-gradient-to-br from-yellow-800/40 to-yellow-600/20 p-6 rounded-2xl border border-yellow-500/30 backdrop-blur-sm">
                     <p className="leading-relaxed">
@@ -101,12 +440,12 @@ const ConstellationsPage = () => {
                   </div>
                 </div>
                 <div className="md:w-1/2 md:pl-8 hidden md:block"></div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-yellow-500 border-2 border-white z-10"></div>
+                <div className="dot2 absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-yellow-500 border-2 border-white z-10"></div>
               </div>
               
               <div className="flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 md:pr-8 hidden md:block"></div>
-                <div className="md:w-1/2 md:pl-8">
+                <div className="mythologicaldiv md:w-1/2 md:pl-8">
                   <h3 className="text-2xl font-medium mb-3 text-blue-300 md:text-left">Mythological <br/> Storytelling</h3>
                   <div className="cosmic-card bg-gradient-to-br from-blue-800/40 to-blue-600/20 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm">
                     <p className="leading-relaxed">
@@ -116,11 +455,11 @@ const ConstellationsPage = () => {
                     </p>
                   </div>
                 </div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-blue-500 border-2 border-white z-10"></div>
+                <div className="dot2 absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-blue-500 border-2 border-white z-10"></div>
               </div>
               
               <div className="flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
+                <div className="agriculturaldiv md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
                   <h3 className="text-2xl font-medium mb-3 text-teal-300">Agricultural <br/> Calendars</h3>
                   <div className="cosmic-card bg-gradient-to-br from-teal-800/40 to-teal-600/20 p-6 rounded-2xl border border-teal-500/30 backdrop-blur-sm">
                     <p className="leading-relaxed">
@@ -132,7 +471,7 @@ const ConstellationsPage = () => {
                   </div>
                 </div>
                 <div className="md:w-1/2 md:pl-8 hidden md:block"></div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-teal-500 border-2 border-white z-10"></div>
+                <div className="dot2 absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-teal-500 border-2 border-white z-10"></div>
               </div>
             </div>
           </div>
@@ -140,10 +479,10 @@ const ConstellationsPage = () => {
 
         {/* Famous Constellations Section with animations */}
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-indigo-200">Notable Constellations</h2>
+          <h2 className="notableconstellationsheading text-2xl md:text-3xl font-semibold mb-8 text-center text-indigo-200">Notable Constellations</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Orion - Connect-the-dots animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-transparent overflow-hidden group">
+            <div className="orion cosmic-card relative p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-transparent overflow-hidden group">
               <div className="constellation-dots opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute w-2 h-2 bg-blue-300 rounded-full top-1/4 left-1/4"></div>
                 <div className="absolute w-2 h-2 bg-blue-300 rounded-full top-1/4 left-1/3"></div>
@@ -167,7 +506,7 @@ const ConstellationsPage = () => {
             </div>
             
             {/* Ursa Major - Rotating animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm bg-gradient-to-br from-purple-900/40 to-transparent overflow-hidden group">
+            <div className="ursamajor cosmic-card relative p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm bg-gradient-to-br from-purple-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute w-24 h-24 border border-purple-400/30 rounded animate-ursa-rotate">
                   <div className="absolute w-2 h-2 bg-purple-300 rounded-full top-0 left-0"></div>
@@ -185,7 +524,7 @@ const ConstellationsPage = () => {
             </div>
             
             {/* Cassiopeia - W-shaped twinkling */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-pink-500/30 backdrop-blur-sm bg-gradient-to-br from-pink-900/40 to-transparent overflow-hidden group">
+            <div className="cassiopeia cosmic-card relative p-6 rounded-2xl border border-pink-500/30 backdrop-blur-sm bg-gradient-to-br from-pink-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 right-0 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-20">
                   <div className="absolute w-2 h-2 bg-pink-300 rounded-full top-0 left-0 animate-cassiopeia-twinkle"></div>
@@ -205,7 +544,7 @@ const ConstellationsPage = () => {
             </div>
             
             {/* Cygnus - Flying swan animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-indigo-500/30 backdrop-blur-sm bg-gradient-to-br from-indigo-900/40 to-transparent overflow-hidden group">
+            <div className="cygnus cosmic-card relative p-6 rounded-2xl border border-indigo-500/30 backdrop-blur-sm bg-gradient-to-br from-indigo-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/3 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-3 h-3 bg-indigo-300 rounded-full top-0 left-1/2 transform -translate-x-1/2 animate-cygnus-twinkle"></div>
@@ -227,7 +566,7 @@ const ConstellationsPage = () => {
             </div>
             
             {/* Scorpius - Curving tail animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm bg-gradient-to-br from-red-900/40 to-transparent overflow-hidden group">
+            <div className="scorpius cosmic-card relative p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm bg-gradient-to-br from-red-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-3 h-3 bg-red-400 rounded-full top-0 left-0 animate-scorpius-twinkle"></div>
@@ -251,7 +590,7 @@ const ConstellationsPage = () => {
             </div>
             
             {/* Crux - Southern Cross pulsing */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-cyan-500/30 backdrop-blur-sm bg-gradient-to-br from-cyan-900/40 to-transparent overflow-hidden group">
+            <div className="crux cosmic-card relative p-6 rounded-2xl border border-cyan-500/30 backdrop-blur-sm bg-gradient-to-br from-cyan-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-20.5 right-0 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-2 h-2 bg-cyan-300 rounded-full top-0 left-1/2 transform -translate-x-1/2 animate-crux-pulse"></div>
@@ -270,7 +609,7 @@ const ConstellationsPage = () => {
             </div>
 
             {/* Pegasus - Flying horse animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-amber-500/30 backdrop-blur-sm bg-gradient-to-br from-amber-900/40 to-transparent overflow-hidden group">
+            <div className="pegasus cosmic-card relative p-6 rounded-2xl border border-amber-500/30 backdrop-blur-sm bg-gradient-to-br from-amber-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-2 h-2 bg-amber-300 rounded-full top-0 left-0 animate-pegasus-twinkle"></div>
@@ -293,7 +632,7 @@ const ConstellationsPage = () => {
             </div>
             
             {/* Aquila - Eagle soaring animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-green-500/30 backdrop-blur-sm bg-gradient-to-br from-green-900/40 to-transparent overflow-hidden group">
+            <div className="aquila cosmic-card relative p-6 rounded-2xl border border-green-500/30 backdrop-blur-sm bg-gradient-to-br from-green-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-3 h-3 bg-green-300 rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-aquila-center"></div>
@@ -313,7 +652,7 @@ const ConstellationsPage = () => {
             </div>
             
             {/* Draco - Serpentine movement animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-teal-500/30 backdrop-blur-sm bg-gradient-to-br from-teal-900/40 to-transparent overflow-hidden group">
+            <div className="draco cosmic-card relative p-6 rounded-2xl border border-teal-500/30 backdrop-blur-sm bg-gradient-to-br from-teal-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-2 h-2 bg-teal-300 rounded-full top-0 left-1/2 transform -translate-x-1/2 animate-draco-slither"></div>
@@ -335,8 +674,9 @@ const ConstellationsPage = () => {
               <h3 className="text-xl font-medium mb-2 text-teal-200">Draco</h3>
               <p className="leading-relaxed">The Dragon constellation winds between the Big and Little Dippers in the northern sky. This circumpolar constellation was one of the 48 listed by the astronomer Ptolemy in the 2nd century and represents various dragons in different mythologies.</p>
             </div>
+
             {/* Leo - Roaring animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-yellow-500/30 backdrop-blur-sm bg-gradient-to-br from-yellow-900/40 to-transparent overflow-hidden group">
+            <div className="leo cosmic-card relative p-6 rounded-2xl border border-yellow-500/30 backdrop-blur-sm bg-gradient-to-br from-yellow-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-3 h-3 bg-yellow-300 rounded-full top-0 left-1/3 animate-leo-twinkle"></div>
@@ -358,7 +698,7 @@ const ConstellationsPage = () => {
             </div>
 
             {/* Ursa Minor - Rotating animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-blue-400/30 backdrop-blur-sm bg-gradient-to-br from-blue-800/40 to-transparent overflow-hidden group">
+            <div className="ursaminor cosmic-card relative p-6 rounded-2xl border border-blue-400/30 backdrop-blur-sm bg-gradient-to-br from-blue-800/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute w-24 h-24 border border-blue-400/30 rounded animate-ursa-minor-rotate">
                   <div className="absolute w-3 h-3 bg-blue-300 rounded-full top-0 left-1/2 transform -translate-x-1/2"></div>
@@ -376,7 +716,7 @@ const ConstellationsPage = () => {
             </div>
 
             {/* Taurus - Charging bull animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-orange-500/30 backdrop-blur-sm bg-gradient-to-br from-orange-900/40 to-transparent overflow-hidden group">
+            <div className="taurus cosmic-card relative p-6 rounded-2xl border border-orange-500/30 backdrop-blur-sm bg-gradient-to-br from-orange-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-3 h-3 bg-orange-300 rounded-full top-1/4 left-1/4 animate-taurus-pulse"></div>
@@ -395,7 +735,7 @@ const ConstellationsPage = () => {
             </div>
 
             {/* Andromeda - Chained princess animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-violet-500/30 backdrop-blur-sm bg-gradient-to-br from-violet-900/40 to-transparent overflow-hidden group">
+            <div className="andromeda cosmic-card relative p-6 rounded-2xl border border-violet-500/30 backdrop-blur-sm bg-gradient-to-br from-violet-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-2 h-2 bg-violet-300 rounded-full top-0 left-0 animate-andromeda-twinkle"></div>
@@ -417,7 +757,7 @@ const ConstellationsPage = () => {
             </div>
 
             {/* Lyra - Musical lyre animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-emerald-500/30 backdrop-blur-sm bg-gradient-to-br from-emerald-900/40 to-transparent overflow-hidden group">
+            <div className="lyra cosmic-card relative p-6 rounded-2xl border border-emerald-500/30 backdrop-blur-sm bg-gradient-to-br from-emerald-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-3 h-3 bg-emerald-300 rounded-full top-0 left-1/2 transform -translate-x-1/2 animate-lyra-shine"></div>
@@ -438,7 +778,7 @@ const ConstellationsPage = () => {
             </div>
 
             {/* Hydrus - Watery serpent animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-sky-500/30 backdrop-blur-sm bg-gradient-to-br from-sky-900/40 to-transparent overflow-hidden group">
+            <div className="hydrus cosmic-card relative p-6 rounded-2xl border border-sky-500/30 backdrop-blur-sm bg-gradient-to-br from-sky-900/40 to-transparent overflow-hidden group">
               <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-32 h-32">
                   <div className="absolute w-2 h-2 bg-sky-300 rounded-full top-0 left-1/4 animate-hydrus-flow"></div>

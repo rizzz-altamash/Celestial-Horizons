@@ -1,13 +1,423 @@
-import React, { useEffect, useRef } from 'react';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger'
+import React from 'react';
 
 const GalaxiesPage = () => {
+
+  useGSAP(()=>{
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".galaxyheading",{
+      y:100,
+      opacity:0,
+      scale:1.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".galaxyheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".galaxyintro",{
+      opacity:0,
+      scale:0.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".galaxyintro",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".galaxytypeheading",{
+      y:50,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".galaxytypeheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".spiralgal",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".spiralgal",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".ellipticalgal",{
+      x:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".ellipticalgal",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".irregulargal",{
+      x:-250,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".irregulargal",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".lenticulargal",{
+      x:250,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".lenticulargal",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".galcyclyheading",{
+      y:100,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".galcyclyheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".timelineconnector3",{
+      opacity:0,
+      scale:0.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".timelineconnector3",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".dot3",{
+      opacity:0,
+      scale:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".dot3",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".formationdiv",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".formationdiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".evolutiondiv",{
+      x:200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".evolutiondiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".futurediv",{
+      x:-200,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".futurediv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".notablegalheading",{
+      y:120,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".notablegalheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".milky",{
+      x:700,
+      y:500,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".milky",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".whirlpool",{
+      x:-700,
+      y:500,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".whirlpool",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".andromedagal",{
+      y:300,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".andromedagal",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".sombrero",{
+      x:200,
+      y:-100,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".sombrero",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".cartwheel",{
+      x:-200,
+      y:-100,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".cartwheel",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".triangulum",{
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".triangulum",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".makesupgalheading",{
+      y:100,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".makesupgalheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".makesupgaldiv",{
+      y:200,
+      opacity:0,
+      scale:0.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".makesupgaldiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".galobservingsheading",{
+      y:50,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".galobservingsheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".bigdiv",{
+      opacity:0,
+      scale:0.7,
+      duration:300,
+      scrollTrigger:{
+        trigger:".bigdiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".smalldiv",{
+      x:900,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".smalldiv",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".moderndisheading",{
+      y:150,
+      opacity:0,
+      scale:1.5,
+      duration:300,
+      scrollTrigger:{
+        trigger:".moderndisheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".ultra",{
+      x:-200,
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".ultra",
+        markers:false,
+        start:"top 75%",
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".blackhole",{
+      x:200,
+      y:-150,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".blackhole",
+        markers:false,
+        start:"top 75%",
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".gravitational",{
+      x:-200,
+      y:100,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".gravitational",
+        markers:false,
+        end:"top 75%",
+        scrub:5,
+      }
+    })
+    gsap.from(".radiobursts",{
+      x:200,
+      y:100,
+      opacity:0,
+      duration:300,
+      scrollTrigger:{
+        trigger:".radiobursts",
+        markers:false,
+        end:"top 75%",
+        scrub:5,
+      }
+    })
+
+    // Next Page 
+    gsap.from(".academyheading",{
+      y:100,
+      opacity:0,
+      scale:3,
+      scrollTrigger:{
+        trigger:".academyheading",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".academypara",{
+      y:100,
+      opacity:0,
+      scale:2,
+      scrollTrigger:{
+        trigger:".academypara",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".conceptstab",{
+      x:-200,
+      y:100,
+      opacity:0,
+      duration:500,
+      scrollTrigger:{
+        trigger:".conceptstab",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".mythologytab",{
+      y:100,
+      opacity:0,
+      duration:500,
+      scrollTrigger:{
+        trigger:".mythologytab",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+    gsap.from(".telescopetab",{
+      x:200,
+      y:100,
+      opacity:0,
+      duration:500,
+      scrollTrigger:{
+        trigger:".telescopetab",
+        markers:false,
+        end:"top 50%",
+        scrub:5,
+      }
+    })
+  })
 
   return (
     <div id='galaxies' className="relative text-white min-h-screen overflow-hidden">
       
       <div className="container mx-auto px-4 py-16 relative z-10">
         {/* Page Title with cosmic glow effect */}
-        <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center">
+        <h1 className="galaxyheading text-4xl md:text-6xl font-bold mb-8 text-center">
           <span className="inline-block relative">
             The Mystery of Galaxies
             <span className="absolute -inset-1 blur-xl bg-purple-500/20 -z-10 rounded-full"></span>
@@ -15,7 +425,7 @@ const GalaxiesPage = () => {
         </h1>
         
         {/* Introduction Section */}
-        <section className="mb-16 max-w-4xl mx-auto">
+        <section className="galaxyintro mb-16 max-w-4xl mx-auto">
           <div className="glass-card p-8 rounded-2xl relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-purple-900/10 backdrop-blur-sm -z-10"></div>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-purple-200">What Are Galaxies?</h2>
@@ -34,11 +444,11 @@ const GalaxiesPage = () => {
         
         {/* Galaxy Classification Section */}
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">
+          <h2 className="galaxytypeheading text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">
             Types of Galaxies
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="cosmic-card bg-gradient-to-br from-blue-900/40 to-blue-700/20 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm hover:from-blue-800/50 hover:to-blue-600/30 transition duration-300">
+            <div className="spiralgal cosmic-card bg-gradient-to-br from-blue-900/40 to-blue-700/20 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm hover:from-blue-800/50 hover:to-blue-600/30 transition duration-300">
               <div className="cosmic-orb bg-blue-400/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-blue-300">Spiral Galaxies</h3>
               <p className="leading-relaxed">
@@ -47,7 +457,7 @@ const GalaxiesPage = () => {
                 Spirals are actively forming new stars, especially within their arms.
               </p>
             </div>
-            <div className="cosmic-card bg-gradient-to-br from-yellow-900/40 to-yellow-700/20 p-6 rounded-2xl border border-yellow-500/30 backdrop-blur-sm hover:from-yellow-800/50 hover:to-yellow-600/30 transition duration-300">
+            <div className="ellipticalgal cosmic-card bg-gradient-to-br from-yellow-900/40 to-yellow-700/20 p-6 rounded-2xl border border-yellow-500/30 backdrop-blur-sm hover:from-yellow-800/50 hover:to-yellow-600/30 transition duration-300">
               <div className="cosmic-orb bg-yellow-400/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-yellow-300">Elliptical Galaxies</h3>
               <p className="leading-relaxed">
@@ -57,7 +467,7 @@ const GalaxiesPage = () => {
                 in the universe are giant ellipticals.
               </p>
             </div>
-            <div className="cosmic-card bg-gradient-to-br from-purple-900/40 to-purple-700/20 p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm hover:from-purple-800/50 hover:to-purple-600/30 transition duration-300">
+            <div className="irregulargal cosmic-card bg-gradient-to-br from-purple-900/40 to-purple-700/20 p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm hover:from-purple-800/50 hover:to-purple-600/30 transition duration-300">
               <div className="cosmic-orb bg-purple-400/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-purple-300">Irregular Galaxies</h3>
               <p className="leading-relaxed">
@@ -67,7 +477,7 @@ const GalaxiesPage = () => {
                 galaxies with chaotic structures.
               </p>
             </div>
-            <div className="cosmic-card bg-gradient-to-br from-amber-800/40 to-amber-600/20 p-6 rounded-2xl border border-amber-500/30 backdrop-blur-sm hover:from-amber-700/50 hover:to-amber-500/30 transition duration-300">
+            <div className="lenticulargal cosmic-card bg-gradient-to-br from-amber-800/40 to-amber-600/20 p-6 rounded-2xl border border-amber-500/30 backdrop-blur-sm hover:from-amber-700/50 hover:to-amber-500/30 transition duration-300">
               <div className="cosmic-orb bg-amber-300/20 absolute top-4 right-4 w-12 h-12 rounded-full blur-xl -z-5"></div>
               <h3 className="text-xl font-medium mb-3 text-amber-200">Lenticular Galaxies</h3>
               <p className="leading-relaxed">
@@ -82,15 +492,15 @@ const GalaxiesPage = () => {
         
         {/* Galaxy Formation and Evolution Section */}
         <section className="mb-16 max-w-5xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">The Life of Galaxies</h2>
+          <h2 className="galcyclyheading text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">The Life of Galaxies</h2>
           <div className="relative">
             {/* Timeline connector */}
-            <div className="absolute top-0 bottom-0 left-1/2 w-1 bg-gradient-to-b from-blue-500 via-purple-500 to-indigo-500 transform -translate-x-1/2 rounded-full"></div>
+            <div className="timelineconnector3 absolute top-0 bottom-0 left-1/2 w-1 bg-gradient-to-b from-blue-500 via-purple-500 to-indigo-500 transform -translate-x-1/2 rounded-full"></div>
             
             {/* Timeline items */}
             <div className="grid grid-cols-1 gap-12">
               <div className="flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
+                <div className="formationdiv md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
                   <h3 className="text-2xl font-medium mb-3 text-blue-300">Formation</h3>
                   <div className="cosmic-card bg-gradient-to-br from-blue-800/40 to-blue-600/20 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm">
                     <p className="leading-relaxed">
@@ -102,12 +512,12 @@ const GalaxiesPage = () => {
                   </div>
                 </div>
                 <div className="md:w-1/2 md:pl-8 hidden md:block"></div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-blue-500 border-2 border-white z-10"></div>
+                <div className="dot3 absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-blue-500 border-2 border-white z-10"></div>
               </div>
               
               <div className="flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 md:pr-8 hidden md:block"></div>
-                <div className="md:w-1/2 md:pl-8">
+                <div className="evolutiondiv md:w-1/2 md:pl-8">
                   <h3 className="text-2xl font-medium mb-3 text-purple-300 md:text-left">Evolution</h3>
                   <div className="cosmic-card bg-gradient-to-br from-purple-800/40 to-purple-600/20 p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm">
                     <p className="leading-relaxed">
@@ -118,11 +528,11 @@ const GalaxiesPage = () => {
                     </p>
                   </div>
                 </div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-purple-500 border-2 border-white z-10"></div>
+                <div className="dot3 absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-purple-500 border-2 border-white z-10"></div>
               </div>
               
               <div className="flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
+                <div className="futurediv md:w-1/2 md:pr-8 mb-6 md:mb-0 md:text-right">
                   <h3 className="text-2xl font-medium mb-3 text-indigo-300">Future</h3>
                   <div className="cosmic-card bg-gradient-to-br from-indigo-800/40 to-indigo-600/20 p-6 rounded-2xl border border-indigo-500/30 backdrop-blur-sm">
                     <p className="leading-relaxed">
@@ -135,7 +545,7 @@ const GalaxiesPage = () => {
                   </div>
                 </div>
                 <div className="md:w-1/2 md:pl-8 hidden md:block"></div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-indigo-500 border-2 border-white z-10"></div>
+                <div className="dot3 absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-indigo-500 border-2 border-white z-10"></div>
               </div>
             </div>
           </div>
@@ -143,10 +553,10 @@ const GalaxiesPage = () => {
         
         {/* Famous Galaxies Section with animations */}
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">Notable Galaxies</h2>
+          <h2 className="notablegalheading text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">Notable Galaxies</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Milky Way - Spiral rotation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-transparent overflow-hidden group">
+            <div className="milky cosmic-card relative p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm bg-gradient-to-br from-blue-900/40 to-transparent overflow-hidden group">
               <div className="absolute w-24 h-24 top-16 right-16 rounded-full border border-blue-400/30 opacity-70 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="absolute w-36 h-36 top-10 right-10 rounded-full border border-blue-400/20 opacity-70 group-hover:opacity-100 transition-opacity duration-500"></div>
               
@@ -164,7 +574,7 @@ const GalaxiesPage = () => {
             </div>
             
             {/* Andromeda - Approaching animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-indigo-500/30 backdrop-blur-sm bg-gradient-to-br from-indigo-900/40 to-transparent overflow-hidden group">
+            <div className="andromedagal cosmic-card relative p-6 rounded-2xl border border-indigo-500/30 backdrop-blur-sm bg-gradient-to-br from-indigo-900/40 to-transparent overflow-hidden group">
               <div className="absolute w-36 h-8 rotate-45 top-12 right-8 opacity-80 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute w-full h-full rounded-full animate-andromeda-approach">
                   <div className="absolute w-36 h-8 bg-indigo-400/20 rounded-full blur-[0.3rem] "></div>
@@ -179,7 +589,7 @@ const GalaxiesPage = () => {
             </div>
             
             {/* Whirlpool Galaxy - Interaction animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-green-500/30 backdrop-blur-sm bg-gradient-to-br from-green-900/40 to-transparent overflow-hidden group">
+            <div className="whirlpool cosmic-card relative p-6 rounded-2xl border border-green-500/30 backdrop-blur-sm bg-gradient-to-br from-green-900/40 to-transparent overflow-hidden group">
               <div className="absolute w-40 h-40 top-8 right-8 opacity-80 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute w-full h-full animate-whirlpool-spin">
                   <div className="absolute w-32 h-32 top-4 left-4 border border-green-400/30 rounded-full blur-sm"></div>
@@ -195,7 +605,7 @@ const GalaxiesPage = () => {
             </div>
             
             {/* Sombrero Galaxy - Tilted disk animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-amber-500/30 backdrop-blur-sm bg-gradient-to-br from-amber-900/40 to-transparent overflow-hidden group">
+            <div className="sombrero cosmic-card relative p-6 rounded-2xl border border-amber-500/30 backdrop-blur-sm bg-gradient-to-br from-amber-900/40 to-transparent overflow-hidden group">
               <div className="absolute w-48 h-16 top-10 right-4 opacity-50 group-hover:opacity-90 transition-opacity duration-500">
                 <div className="absolute w-48 h-16 bg-amber-400/20 rounded-full blur-[0.3rem] transform animate-sombrero-tilt"></div>
                 <div className="absolute w-12 h-12 bg-amber-700/30 rounded-full top-2 left-18 blur-[0.3rem]"></div>
@@ -206,7 +616,7 @@ const GalaxiesPage = () => {
             </div>
             
             {/* Triangulum Galaxy - Periodic brightening */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm bg-gradient-to-br from-red-900/40 to-transparent overflow-hidden group">
+            <div className="triangulum cosmic-card relative p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm bg-gradient-to-br from-red-900/40 to-transparent overflow-hidden group">
               <div className="absolute w-36 h-36 top-8 right-8 opacity-70 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute w-full h-full animate-triangulum-rotate">
                   <div className="triangle-galaxy w-0 h-0 border-l-[25px] border-l-transparent border-b-[50px] border-b-red-300/30
@@ -219,7 +629,7 @@ const GalaxiesPage = () => {
             </div>
             
             {/* Cartwheel Galaxy - Ripple effect animation */}
-            <div className="cosmic-card relative p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm bg-gradient-to-br from-purple-900/40 to-transparent overflow-hidden group">
+            <div className="cartwheel cosmic-card relative p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm bg-gradient-to-br from-purple-900/40 to-transparent overflow-hidden group">
               <div className="absolute w-40 h-40 top-8 right-8 opacity-70 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="absolute w-16 h-16 bg-purple-500/30 rounded-full top-12 left-12 blur-sm animate-cartwheel-center"></div>
                 <div className="absolute w-32 h-32 border border-purple-400/40 rounded-full top-4 left-4 animate-cartwheel-ripple-1"></div>
@@ -234,8 +644,8 @@ const GalaxiesPage = () => {
         
         {/* Galaxy Composition Section */}
         <section className="mb-16 max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">What Makes Up a Galaxy?</h2>
-          <div className="cosmic-card p-8 rounded-2xl border border-purple-500/30 backdrop-blur-sm bg-gradient-to-br from-purple-900/40 to-purple-700/10 relative overflow-hidden">
+          <h2 className="makesupgalheading text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">What Makes Up a Galaxy?</h2>
+          <div className="makesupgaldiv cosmic-card p-8 rounded-2xl border border-purple-500/30 backdrop-blur-sm bg-gradient-to-br from-purple-900/40 to-purple-700/10 relative overflow-hidden">
             <div className="cosmic-particles absolute inset-0 -z-10"></div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-4">
@@ -287,8 +697,8 @@ const GalaxiesPage = () => {
 
         {/* Observing Galaxies */}
         <section className="mb-16 max-w-4xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">Observing Galaxies</h2>
-        <div className="glass-card p-8 rounded-2xl relative overflow-hidden">
+        <h2 className="galobservingsheading text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">Observing Galaxies</h2>
+        <div className="bigdiv glass-card p-8 rounded-2xl relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-purple-900/10 backdrop-blur-sm -z-10"></div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
@@ -317,7 +727,7 @@ const GalaxiesPage = () => {
                 </ul>
             </div>
             
-            <div className="relative">
+            <div className="smalldiv relative">
                 <h3 className="text-xl font-medium mb-4 text-blue-300">For Amateur Astronomers</h3>
                 <div className="cosmic-card bg-gradient-to-br from-blue-900/40 to-blue-700/10 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm relative overflow-hidden group">
                 {/* Telescope animation */}
@@ -352,16 +762,16 @@ const GalaxiesPage = () => {
 
         {/* Modern Discoveries Section with Animations */}
         <section className="mb-16 max-w-4xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">Recent Galactic Discoveries</h2>
+        <h2 className="moderndisheading text-2xl md:text-3xl font-semibold mb-8 text-center text-purple-200">Modern Galactic Discoveries</h2>
         <div className="relative">
-            <div className="absolute w-full h-full -z-5 opacity-20">
+            {/* <div className="absolute w-full h-full -z-5 opacity-20">
             <div className="absolute w-2 h-2 bg-white rounded-full top-1/4 left-1/4 animate-expand-slow"></div>
             <div className="absolute w-2 h-2 bg-white rounded-full top-3/4 left-1/2 animate-expand-medium"></div>
             <div className="absolute w-2 h-2 bg-white rounded-full top-1/2 left-3/4 animate-expand-fast"></div>
-            </div>
+            </div> */}
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="cosmic-card bg-gradient-to-br from-purple-900/40 to-purple-700/10 p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm hover:from-purple-800/50 hover:to-purple-600/30 transition duration-300 group overflow-hidden">
+            <div className="ultra cosmic-card bg-gradient-to-br from-purple-900/40 to-purple-700/10 p-6 rounded-2xl border border-purple-500/30 backdrop-blur-sm hover:from-purple-800/50 hover:to-purple-600/30 transition duration-300 group overflow-hidden">
                 <div className="absolute top-4 right-4 w-8 h-8 blur-[0.05rem] opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                 <div className="w-full h-full rounded-full bg-purple-500/20 animate-pulse-slow"></div>
                 <div className="absolute w-32 h-32 rounded-full border border-purple-400/70 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-betelgeuse-pulse opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
@@ -375,7 +785,7 @@ const GalaxiesPage = () => {
                 </p>
             </div>
             
-            <div className="cosmic-card bg-gradient-to-br from-blue-900/40 to-blue-700/10 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm hover:from-blue-800/50 hover:to-blue-600/30 transition duration-300 group">
+            <div className="blackhole cosmic-card bg-gradient-to-br from-blue-900/40 to-blue-700/10 p-6 rounded-2xl border border-blue-500/30 backdrop-blur-sm hover:from-blue-800/50 hover:to-blue-600/30 transition duration-300 group">
                 <div className="absolute top-4 right-4 w-12 h-12 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                 <div className="w-8 h-8 absolute top-1.75 left-2 rounded-full border border-blue-400/50 animate-rotate-slow blur-[0.05rem]"></div>
                 <div className="w-12 h-1 absolute top-5 left-0 bg-blue-500/30 rounded-full blur-[0.1rem]"></div>
@@ -390,7 +800,7 @@ const GalaxiesPage = () => {
                 </p>
             </div>
             
-            <div className="cosmic-card bg-gradient-to-br from-green-900/40 to-green-700/10 p-6 rounded-2xl border border-green-500/30 backdrop-blur-sm hover:from-green-800/50 hover:to-green-600/30 transition duration-300 group">
+            <div className="gravitational cosmic-card bg-gradient-to-br from-green-900/40 to-green-700/10 p-6 rounded-2xl border border-green-500/30 backdrop-blur-sm hover:from-green-800/50 hover:to-green-600/30 transition duration-300 group">
                 <div className="absolute top-4 right-4 w-12 h-12 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                 <div className="w-12 h-1 bg-green-400/50 rounded-full absolute top-6 animate-wave-slow"></div>
                 <div className="w-12 h-1 bg-green-400/30 rounded-full absolute top-10 animate-wave-slower"></div>
@@ -404,7 +814,7 @@ const GalaxiesPage = () => {
                 </p>
             </div>
             
-            <div className="cosmic-card bg-gradient-to-br from-red-900/40 to-red-700/10 p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm hover:from-red-800/50 hover:to-red-600/30 transition duration-300 group">
+            <div className="radiobursts cosmic-card bg-gradient-to-br from-red-900/40 to-red-700/10 p-6 rounded-2xl border border-red-500/30 backdrop-blur-sm hover:from-red-800/50 hover:to-red-600/30 transition duration-300 group">
                 <div className="absolute top-4 right-4 w-12 h-12 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
                 <div className="absolute w-2 h-2 bg-red-500/70 rounded-full top-2 left-2 animate-fast-blink"></div>
                 <div className="absolute w-2 h-2 bg-red-500/70 rounded-full top-8 left-8 animate-medium-blink"></div>
@@ -595,9 +1005,6 @@ const GalaxiesPage = () => {
         .animate-cartwheel-ripple-2 {
         animation: cartwheel-ripple-2 7s ease-in-out infinite;
         }
-
-
-
 
         // Recent Glactic Discoveries CSS 
         @keyframes expand {

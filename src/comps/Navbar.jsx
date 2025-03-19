@@ -1,5 +1,6 @@
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger'
 import React from 'react';
 import { Link } from 'react-scroll';
 
@@ -32,10 +33,22 @@ const Navbar = () => {
       stagger:0.2,
     }, "-=0.3")
     .from(".downarrow",{
-      y:-155,
+      y:-170,
       opacity:0,
+      scale:3,
     })
 
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.to(".indicator",{
+      opacity:0,
+      scale:0,
+      scrollTrigger:{
+        trigger:".indicator",
+        start:"top 70%",
+        end:"top 30%",
+        scrub:5,
+      }
+    })
   });
 
   return (

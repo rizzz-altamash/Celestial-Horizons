@@ -105,13 +105,13 @@ const CosmicAcademyPage = () => {
       <div className="container mx-auto px-4 py-16 relative z-10">
         {/* Page Title with meteor effect */}
         <div className="relative mb-16">
-          <h1 className="text-5xl md:text-7xl font-bold text-center">
+          <h1 className="academyheading text-5xl md:text-7xl font-bold text-center">
             <span className="relative inline-block">
               Cosmic Academy
               <span className="meteor-trail absolute -inset-2 blur-xl bg-gradient-to-r from-purple-500/30 via-pink-500/30 to-purple-500/0 -z-10 rounded-full"></span>
             </span>
           </h1>
-          <p className="text-xl text-center mt-4 text-purple-200 max-w-3xl mx-auto">
+          <p className="academypara text-xl text-center mt-4 text-purple-200 max-w-3xl mx-auto">
             Explore the mysteries of the cosmos through interactive lessons and ancient stories
           </p>
         </div>
@@ -120,7 +120,7 @@ const CosmicAcademyPage = () => {
         <div className="flex flex-wrap justify-center mb-12 gap-2">
         <button 
             onClick={() => setActiveTab('astronomy')}
-            className={`relative px-6 py-3 rounded-full font-medium transition-all duration-300 ${
+            className={`conceptstab relative px-6 py-3 rounded-full font-medium transition-all duration-300 ${
               activeTab === 'astronomy' 
                 ? 'bg-blue-800 text-white shadow-glow-blue' 
                 : 'bg-blue-900/30 text-blue-200 hover:bg-blue-800/50'
@@ -130,7 +130,7 @@ const CosmicAcademyPage = () => {
           </button>
           <button 
             onClick={() => setActiveTab('constellations')}
-            className={`relative px-6 py-3 rounded-full font-medium transition-all duration-300 ${
+            className={`mythologytab relative px-6 py-3 rounded-full font-medium transition-all duration-300 ${
               activeTab === 'constellations' 
                 ? 'bg-purple-800 text-white shadow-glow-purple' 
                 : 'bg-purple-900/30 text-purple-200 hover:bg-purple-800/50'
@@ -140,7 +140,7 @@ const CosmicAcademyPage = () => {
           </button>
           <button 
             onClick={() => setActiveTab('telescopes')}
-            className={`relative px-6 py-3 rounded-full font-medium transition-all duration-300 ${
+            className={`telescopetab relative px-6 py-3 rounded-full font-medium transition-all duration-300 ${
               activeTab === 'telescopes' 
                 ? 'bg-teal-800 text-white shadow-glow-teal' 
                 : 'bg-teal-900/30 text-teal-200 hover:bg-teal-800/50'
