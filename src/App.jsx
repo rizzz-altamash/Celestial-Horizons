@@ -1,4 +1,5 @@
 import './App.css'
+import useSmoothScroll from './comps/SmoothScroll'
 import Navbar from './comps/Navbar'
 import Hero from './comps/Hero'
 import StarsPage from './comps/StarsPage'
@@ -8,6 +9,9 @@ import CosmicAcademyPage from './comps/CosmicAcademy'
 import Footer from './comps/Footer'
 
 function App() {
+
+  useSmoothScroll(3);
+
   return (
     <>
     <Navbar/>
