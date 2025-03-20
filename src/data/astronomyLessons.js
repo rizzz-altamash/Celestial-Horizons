@@ -1,7 +1,7 @@
 export const astronomyLessons = [
     {
       id: 'celestial-sphere',
-      title: 'The Celestial Sphere',
+      title: 'Celestial Sphere',
       level: 'Beginner',
       content: "The celestial sphere is an imaginary sphere surrounding Earth. All objects in the sky, like stars and planets, appear to be fixed to this sphere. The concept helps us understand how celestial objects move across our sky. Important points on this sphere include the celestial poles (extensions of Earth's North and South poles) and the celestial equator (extension of Earth's equator).",
     },
