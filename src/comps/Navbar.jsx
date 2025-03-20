@@ -53,7 +53,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar fixed top-0 left-0 w-full bg-opacity-50 backdrop-blur-sm p-4 flex justify-center space-x-8 text-white z-50">
-      <ul className='flex justify-center gap-x-6 md:gap-x-12 lg:gap-x-16'>
+      <ul className='flex justify-center gap-x-4 md:gap-x-12 lg:gap-x-16'>
       <li className='options'>
         <Link to="hero" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
         Home
