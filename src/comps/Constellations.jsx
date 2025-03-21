@@ -17,7 +17,7 @@ const ConstellationsPage = () => {
         trigger:".constellationsheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".constellationsintro",{
@@ -28,7 +28,7 @@ const ConstellationsPage = () => {
         trigger:".constellationsintro",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".constellationcategoriesheading",{
@@ -39,7 +39,7 @@ const ConstellationsPage = () => {
         trigger:".constellationcategoriesheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".zodiac",{
@@ -50,7 +50,7 @@ const ConstellationsPage = () => {
         trigger:".zodiac",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".northern",{
@@ -61,7 +61,7 @@ const ConstellationsPage = () => {
         trigger:".northern",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".southern",{
@@ -72,7 +72,7 @@ const ConstellationsPage = () => {
         trigger:".southern",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".seasonal",{
@@ -83,7 +83,7 @@ const ConstellationsPage = () => {
         trigger:".seasonal",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".culturalsignificanceheading",{
@@ -94,7 +94,7 @@ const ConstellationsPage = () => {
         trigger:".culturalsignificanceheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".timelineconnector2",{
@@ -105,7 +105,7 @@ const ConstellationsPage = () => {
         trigger:".timelineconnector2",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".dot2",{
@@ -116,7 +116,7 @@ const ConstellationsPage = () => {
         trigger:".dot2",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".ancientdiv",{
@@ -127,7 +127,7 @@ const ConstellationsPage = () => {
         trigger:".ancientdiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".mythologicaldiv",{
@@ -138,7 +138,7 @@ const ConstellationsPage = () => {
         trigger:".mythologicaldiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".agriculturaldiv",{
@@ -149,7 +149,7 @@ const ConstellationsPage = () => {
         trigger:".agriculturaldiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".notableconstellationsheading",{
@@ -160,7 +160,7 @@ const ConstellationsPage = () => {
         trigger:".notableconstellationsheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".orion",{
@@ -172,7 +172,7 @@ const ConstellationsPage = () => {
         trigger:".orion",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".cassiopeia",{
@@ -184,7 +184,7 @@ const ConstellationsPage = () => {
         trigger:".cassiopeia",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".ursamajor",{
@@ -195,7 +195,7 @@ const ConstellationsPage = () => {
         trigger:".ursamajor",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".cygnus",{
@@ -207,7 +207,7 @@ const ConstellationsPage = () => {
         trigger:".cygnus",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".crux",{
@@ -219,7 +219,7 @@ const ConstellationsPage = () => {
         trigger:".crux",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".scorpius",{
@@ -230,7 +230,7 @@ const ConstellationsPage = () => {
         trigger:".scorpius",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".pegasus",{
@@ -242,7 +242,7 @@ const ConstellationsPage = () => {
         trigger:".pegasus",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".draco",{
@@ -254,7 +254,7 @@ const ConstellationsPage = () => {
         trigger:".draco",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".aquila",{
@@ -265,7 +265,7 @@ const ConstellationsPage = () => {
         trigger:".aquila",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".leo",{
@@ -277,7 +277,7 @@ const ConstellationsPage = () => {
         trigger:".leo",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".taurus",{
@@ -289,7 +289,7 @@ const ConstellationsPage = () => {
         trigger:".taurus",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".ursaminor",{
@@ -300,7 +300,7 @@ const ConstellationsPage = () => {
         trigger:".ursaminor",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".andromeda",{
@@ -312,7 +312,7 @@ const ConstellationsPage = () => {
         trigger:".andromeda",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".hydrus",{
@@ -324,7 +324,7 @@ const ConstellationsPage = () => {
         trigger:".hydrus",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".lyra",{
@@ -335,7 +335,7 @@ const ConstellationsPage = () => {
         trigger:".lyra",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
   })

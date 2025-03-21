@@ -17,7 +17,7 @@ const StarsPage = () => {
         trigger:".starheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".starintro",{
@@ -28,7 +28,7 @@ const StarsPage = () => {
         trigger:".starintro",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".startypeheading",{
@@ -39,7 +39,7 @@ const StarsPage = () => {
         trigger:".startypeheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".mainsequencestars",{
@@ -50,7 +50,7 @@ const StarsPage = () => {
         trigger:".mainsequencestars",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".redgiants",{
@@ -61,7 +61,7 @@ const StarsPage = () => {
         trigger:".redgiants",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".whitedwarfs",{
@@ -72,7 +72,7 @@ const StarsPage = () => {
         trigger:".whitedwarfs",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".supergiants",{
@@ -83,7 +83,7 @@ const StarsPage = () => {
         trigger:".supergiants",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".starlifecycle",{
@@ -94,7 +94,7 @@ const StarsPage = () => {
         trigger:".starlifecycle",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".timelineconnector",{
@@ -105,7 +105,7 @@ const StarsPage = () => {
         trigger:".timelineconnector",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".dot1",{
@@ -116,7 +116,7 @@ const StarsPage = () => {
         trigger:".dot1",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".birthdiv",{
@@ -127,7 +127,7 @@ const StarsPage = () => {
         trigger:".birthdiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".lifediv",{
@@ -138,7 +138,7 @@ const StarsPage = () => {
         trigger:".lifediv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".deathdiv",{
@@ -149,7 +149,7 @@ const StarsPage = () => {
         trigger:".deathdiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".notablestarsheading",{
@@ -160,7 +160,7 @@ const StarsPage = () => {
         trigger:".notablestarsheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".sirius",{
@@ -171,7 +171,7 @@ const StarsPage = () => {
         trigger:".sirius",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".polaris",{
@@ -182,7 +182,7 @@ const StarsPage = () => {
         trigger:".polaris",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".betelgeuse",{
@@ -193,7 +193,7 @@ const StarsPage = () => {
         trigger:".betelgeuse",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".vega",{
@@ -204,7 +204,7 @@ const StarsPage = () => {
         trigger:".vega",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".antares",{
@@ -215,7 +215,7 @@ const StarsPage = () => {
         trigger:".antares",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".proximacentauri",{
@@ -226,7 +226,7 @@ const StarsPage = () => {
         trigger:".proximacentauri",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".observingstarsheading",{
@@ -237,7 +237,7 @@ const StarsPage = () => {
         trigger:".observingstarsheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".stargazingdiv",{
@@ -248,7 +248,7 @@ const StarsPage = () => {
         trigger:".stargazingdiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
   })

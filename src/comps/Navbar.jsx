@@ -49,7 +49,7 @@ const Navbar = () => {
         trigger: ".indicator",
         start: "top 70%",
         end: "top 30%",
-        scrub: 3,
+        scrub:2,
       }
     });
 

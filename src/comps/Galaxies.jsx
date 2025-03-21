@@ -17,7 +17,7 @@ const GalaxiesPage = () => {
         trigger:".galaxyheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".galaxyintro",{
@@ -28,7 +28,7 @@ const GalaxiesPage = () => {
         trigger:".galaxyintro",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".galaxytypeheading",{
@@ -39,7 +39,7 @@ const GalaxiesPage = () => {
         trigger:".galaxytypeheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".spiralgal",{
@@ -50,7 +50,7 @@ const GalaxiesPage = () => {
         trigger:".spiralgal",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".ellipticalgal",{
@@ -61,7 +61,7 @@ const GalaxiesPage = () => {
         trigger:".ellipticalgal",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".irregulargal",{
@@ -72,7 +72,7 @@ const GalaxiesPage = () => {
         trigger:".irregulargal",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".lenticulargal",{
@@ -83,7 +83,7 @@ const GalaxiesPage = () => {
         trigger:".lenticulargal",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".galcyclyheading",{
@@ -94,7 +94,7 @@ const GalaxiesPage = () => {
         trigger:".galcyclyheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".timelineconnector3",{
@@ -105,7 +105,7 @@ const GalaxiesPage = () => {
         trigger:".timelineconnector3",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".dot3",{
@@ -116,7 +116,7 @@ const GalaxiesPage = () => {
         trigger:".dot3",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".formationdiv",{
@@ -127,7 +127,7 @@ const GalaxiesPage = () => {
         trigger:".formationdiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".evolutiondiv",{
@@ -138,7 +138,7 @@ const GalaxiesPage = () => {
         trigger:".evolutiondiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".futurediv",{
@@ -149,7 +149,7 @@ const GalaxiesPage = () => {
         trigger:".futurediv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".notablegalheading",{
@@ -160,7 +160,7 @@ const GalaxiesPage = () => {
         trigger:".notablegalheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".milky",{
@@ -172,7 +172,7 @@ const GalaxiesPage = () => {
         trigger:".milky",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".whirlpool",{
@@ -184,7 +184,7 @@ const GalaxiesPage = () => {
         trigger:".whirlpool",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".andromedagal",{
@@ -195,7 +195,7 @@ const GalaxiesPage = () => {
         trigger:".andromedagal",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".sombrero",{
@@ -207,7 +207,7 @@ const GalaxiesPage = () => {
         trigger:".sombrero",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".cartwheel",{
@@ -219,7 +219,7 @@ const GalaxiesPage = () => {
         trigger:".cartwheel",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".triangulum",{
@@ -230,7 +230,7 @@ const GalaxiesPage = () => {
         trigger:".triangulum",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".makesupgalheading",{
@@ -241,7 +241,7 @@ const GalaxiesPage = () => {
         trigger:".makesupgalheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".makesupgaldiv",{
@@ -253,7 +253,7 @@ const GalaxiesPage = () => {
         trigger:".makesupgaldiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".galobservingsheading",{
@@ -264,7 +264,7 @@ const GalaxiesPage = () => {
         trigger:".galobservingsheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".bigdiv",{
@@ -275,7 +275,7 @@ const GalaxiesPage = () => {
         trigger:".bigdiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".smalldiv",{
@@ -286,7 +286,7 @@ const GalaxiesPage = () => {
         trigger:".smalldiv",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".moderndisheading",{
@@ -298,7 +298,7 @@ const GalaxiesPage = () => {
         trigger:".moderndisheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".ultra",{
@@ -311,7 +311,7 @@ const GalaxiesPage = () => {
         markers:false,
         start:"top 75%",
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".blackhole",{
@@ -324,7 +324,7 @@ const GalaxiesPage = () => {
         markers:false,
         start:"top 75%",
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".gravitational",{
@@ -336,7 +336,7 @@ const GalaxiesPage = () => {
         trigger:".gravitational",
         markers:false,
         end:"top 75%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".radiobursts",{
@@ -348,7 +348,7 @@ const GalaxiesPage = () => {
         trigger:".radiobursts",
         markers:false,
         end:"top 75%",
-        scrub:3,
+        scrub:2,
       }
     })
 
@@ -362,7 +362,7 @@ const GalaxiesPage = () => {
         trigger:".academyheading",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".academypara",{
@@ -374,7 +374,7 @@ const GalaxiesPage = () => {
         trigger:".academypara",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".conceptstab",{
@@ -386,7 +386,7 @@ const GalaxiesPage = () => {
         trigger:".conceptstab",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".mythologytab",{
@@ -397,7 +397,7 @@ const GalaxiesPage = () => {
         trigger:".mythologytab",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
     gsap.from(".telescopetab",{
@@ -409,7 +409,7 @@ const GalaxiesPage = () => {
         trigger:".telescopetab",
         markers:false,
         end:"top 50%",
-        scrub:3,
+        scrub:2,
       }
     })
   })
