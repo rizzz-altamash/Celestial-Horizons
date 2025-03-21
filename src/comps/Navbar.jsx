@@ -181,7 +181,16 @@ const Navbar = () => {
         className={`mobile-menu-container fixed top-16 left-0 right-0 h-55 bottom-0 bg-gradient-to-t from-transparent via-purple-500/50 to-transparent p-4 md:hidden transform ${menuOpen ? "" : "pointer-events-none"}`}
         style={{zIndex: 40}}
       >
-        <ul className='flex flex-col space-y-1 font-semibold'>
+        <ul className='flex flex-col space-y-1 font-semibold text-white'
+        style={{
+          textShadow: `
+            -1px -1px 0 black,
+             1px -1px 0 black,
+            -1px  1px 0 black,
+             1px  1px 0 black
+          `
+        }}
+        >
           <li className='mobile-options'>
             <Link 
               to="hero" 
