@@ -18,13 +18,19 @@ const Navbar = () => {
       duration: 0.7,
       ease: "power2.out",
     })
+    .from(".navlogo", {
+      x:-300,
+      opacity: 0,
+      duration: 0.8,
+      ease: "power3.out",
+    }, "-=0.3")
     .from(".desktop-options", {
       opacity: 0,
       y: -20,
       duration: 0.8,
       stagger: 0.2,
       ease: "power3.out",
-    }, "-=0.5") 
+    }, "-=0.5")
     .from(".para",{
       y: 30,
       opacity: 0,
@@ -123,7 +129,9 @@ const Navbar = () => {
   return (
     <nav className="navbar fixed top-0 left-0 w-full bg-opacity-50 backdrop-blur-sm p-4 flex justify-between items-center text-white z-50">
       {/* Logo or brand name could go here */}
-      <div className="text-lg font-bold">CH</div>
+      <div className="navlogo text-xl font-extrabold tracking-wide text-purple-300">
+        Celestial <span className="text-white">Horizons</span>
+      </div>
       
       {/* Mobile menu button */}
       <div className="md:hidden">
