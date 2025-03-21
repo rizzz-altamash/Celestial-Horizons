@@ -175,13 +175,13 @@ const Navbar = () => {
         </li>
       </ul>
       
-      {/* Mobile menu (animated) */}
+      {/* Mobile menu */}
       <div 
         ref={mobileMenuRef}
         className={`mobile-menu-container fixed top-16 left-0 right-0 h-55 bottom-0 bg-gradient-to-t from-transparent via-purple-500/50 to-transparent p-4 md:hidden transform ${menuOpen ? "" : "pointer-events-none"}`}
         style={{zIndex: 40}}
       >
-        <ul className='flex flex-col space-y-1'>
+        <ul className='flex flex-col space-y-1 font-semibold'>
           <li className='mobile-options'>
             <Link 
               to="hero" 

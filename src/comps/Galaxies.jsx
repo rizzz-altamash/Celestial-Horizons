@@ -126,7 +126,7 @@ const GalaxiesPage = () => {
       scrollTrigger:{
         trigger:".formationdiv",
         markers:false,
-        end:"top 50%",
+        end:"top 70%",
         scrub:2,
       }
     })
@@ -137,7 +137,7 @@ const GalaxiesPage = () => {
       scrollTrigger:{
         trigger:".evolutiondiv",
         markers:false,
-        end:"top 50%",
+        end:"top 70%",
         scrub:2,
       }
     })
@@ -148,7 +148,7 @@ const GalaxiesPage = () => {
       scrollTrigger:{
         trigger:".futurediv",
         markers:false,
-        end:"top 50%",
+        end:"top 70%",
         scrub:2,
       }
     })

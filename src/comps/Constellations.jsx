@@ -126,7 +126,7 @@ const ConstellationsPage = () => {
       scrollTrigger:{
         trigger:".ancientdiv",
         markers:false,
-        end:"top 50%",
+        end:"top 70%",
         scrub:2,
       }
     })
@@ -137,7 +137,7 @@ const ConstellationsPage = () => {
       scrollTrigger:{
         trigger:".mythologicaldiv",
         markers:false,
-        end:"top 50%",
+        end:"top 70%",
         scrub:2,
       }
     })
@@ -148,7 +148,7 @@ const ConstellationsPage = () => {
       scrollTrigger:{
         trigger:".agriculturaldiv",
         markers:false,
-        end:"top 50%",
+        end:"top 70%",
         scrub:2,
       }
     })

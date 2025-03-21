@@ -126,7 +126,7 @@ const StarsPage = () => {
       scrollTrigger:{
         trigger:".birthdiv",
         markers:false,
-        end:"top 50%",
+        end:"top 70%",
         scrub:2,
       }
     })
@@ -137,7 +137,7 @@ const StarsPage = () => {
       scrollTrigger:{
         trigger:".lifediv",
         markers:false,
-        end:"top 50%",
+        end:"top 70%",
         scrub:2,
       }
     })
@@ -148,7 +148,7 @@ const StarsPage = () => {
       scrollTrigger:{
         trigger:".deathdiv",
         markers:false,
-        end:"top 50%",
+        end:"top 70%",
         scrub:2,
       }
     })
