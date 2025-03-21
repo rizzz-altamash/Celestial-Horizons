@@ -12,243 +12,243 @@ const StarsPage = () => {
       y:100,
       opacity:0,
       scale:1.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".starheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".starintro",{
       opacity:0,
       scale:0.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".starintro",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".startypeheading",{
       y:50,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".startypeheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".mainsequencestars",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".mainsequencestars",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".redgiants",{
       x:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".redgiants",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".whitedwarfs",{
       x:-250,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".whitedwarfs",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".supergiants",{
       x:250,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".supergiants",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".starlifecycle",{
       y:100,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".starlifecycle",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".timelineconnector",{
       opacity:0,
       scale:0.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".timelineconnector",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".dot1",{
       opacity:0,
       scale:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".dot1",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".birthdiv",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".birthdiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".lifediv",{
       x:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".lifediv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".deathdiv",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".deathdiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".notablestarsheading",{
       y:50,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".notablestarsheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".sirius",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".sirius",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".polaris",{
       x:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".polaris",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".betelgeuse",{
       y:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".betelgeuse",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".vega",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".vega",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".antares",{
       x:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".antares",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".proximacentauri",{
       y:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".proximacentauri",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".observingstarsheading",{
       y:50,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".observingstarsheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".stargazingdiv",{
       y:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".stargazingdiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
   })

@@ -12,343 +12,343 @@ const GalaxiesPage = () => {
       y:100,
       opacity:0,
       scale:1.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".galaxyheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".galaxyintro",{
       opacity:0,
       scale:0.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".galaxyintro",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".galaxytypeheading",{
       y:50,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".galaxytypeheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".spiralgal",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".spiralgal",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".ellipticalgal",{
       x:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".ellipticalgal",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".irregulargal",{
       x:-250,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".irregulargal",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".lenticulargal",{
       x:250,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".lenticulargal",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".galcyclyheading",{
       y:100,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".galcyclyheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".timelineconnector3",{
       opacity:0,
       scale:0.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".timelineconnector3",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".dot3",{
       opacity:0,
       scale:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".dot3",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".formationdiv",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".formationdiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".evolutiondiv",{
       x:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".evolutiondiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".futurediv",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".futurediv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".notablegalheading",{
       y:120,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".notablegalheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".milky",{
       x:700,
       y:500,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".milky",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".whirlpool",{
       x:-700,
       y:500,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".whirlpool",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".andromedagal",{
       y:300,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".andromedagal",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".sombrero",{
       x:200,
       y:-100,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".sombrero",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".cartwheel",{
       x:-200,
       y:-100,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".cartwheel",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".triangulum",{
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".triangulum",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".makesupgalheading",{
       y:100,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".makesupgalheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".makesupgaldiv",{
       y:200,
       opacity:0,
       scale:0.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".makesupgaldiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".galobservingsheading",{
       y:50,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".galobservingsheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".bigdiv",{
       opacity:0,
       scale:0.7,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".bigdiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".smalldiv",{
       x:900,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".smalldiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".moderndisheading",{
       y:150,
       opacity:0,
       scale:1.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".moderndisheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".ultra",{
       x:-200,
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".ultra",
         markers:false,
         start:"top 75%",
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".blackhole",{
       x:200,
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".blackhole",
         markers:false,
         start:"top 75%",
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".gravitational",{
       x:-200,
       y:100,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".gravitational",
         markers:false,
         end:"top 75%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".radiobursts",{
       x:200,
       y:100,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".radiobursts",
         markers:false,
         end:"top 75%",
-        scrub:5,
+        scrub:3,
       }
     })
 
@@ -357,57 +357,59 @@ const GalaxiesPage = () => {
       y:100,
       opacity:0,
       scale:3,
+      duration:1.5,
       scrollTrigger:{
         trigger:".academyheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".academypara",{
       y:100,
       opacity:0,
       scale:2,
+      duration:1.5,
       scrollTrigger:{
         trigger:".academypara",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".conceptstab",{
       x:-200,
       y:100,
       opacity:0,
-      duration:500,
+      duration:1.5,
       scrollTrigger:{
         trigger:".conceptstab",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".mythologytab",{
       y:100,
       opacity:0,
-      duration:500,
+      duration:1.5,
       scrollTrigger:{
         trigger:".mythologytab",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".telescopetab",{
       x:200,
       y:100,
       opacity:0,
-      duration:500,
+      duration:1.5,
       scrollTrigger:{
         trigger:".telescopetab",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
   })

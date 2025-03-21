@@ -12,330 +12,330 @@ const ConstellationsPage = () => {
       y:100,
       opacity:0,
       scale:1.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".constellationsheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".constellationsintro",{
       opacity:0,
       scale:0.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".constellationsintro",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".constellationcategoriesheading",{
       y:50,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".constellationcategoriesheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".zodiac",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".zodiac",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".northern",{
       x:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".northern",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".southern",{
       x:-250,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".southern",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".seasonal",{
       x:250,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".seasonal",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".culturalsignificanceheading",{
       y:100,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".culturalsignificanceheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".timelineconnector2",{
       opacity:0,
       scale:0.5,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".timelineconnector2",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".dot2",{
       opacity:0,
       scale:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".dot2",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".ancientdiv",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".ancientdiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".mythologicaldiv",{
       x:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".mythologicaldiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".agriculturaldiv",{
       x:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".agriculturaldiv",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".notableconstellationsheading",{
       y:50,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".notableconstellationsheading",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".orion",{
       x:300,
       y:100,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".orion",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".cassiopeia",{
       x:-300,
       y:100,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".cassiopeia",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".ursamajor",{
       y:200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".ursamajor",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".cygnus",{
       x:200,
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".cygnus",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".crux",{
       x:-200,
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".crux",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".scorpius",{
       y:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".scorpius",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".pegasus",{
       x:200,
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".pegasus",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".draco",{
       x:-200,
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".draco",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".aquila",{
       y:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".aquila",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".leo",{
       x:200,
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".leo",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".taurus",{
       x:-200,
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".taurus",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".ursaminor",{
       y:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".ursaminor",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".andromeda",{
       x:200,
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".andromeda",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".hydrus",{
       x:-200,
       y:-150,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".hydrus",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
     gsap.from(".lyra",{
       y:-200,
       opacity:0,
-      duration:300,
+      duration:1.5,
       scrollTrigger:{
         trigger:".lyra",
         markers:false,
         end:"top 50%",
-        scrub:5,
+        scrub:3,
       }
     })
   })
