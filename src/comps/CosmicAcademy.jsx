@@ -281,7 +281,7 @@ const CosmicAcademyPage = () => {
                               href={`${topic.id == 'quantum-gravity' ? "https://en.wikipedia.org/wiki/Quantum_gravity" : topic.id == 'multiverse' ? "https://en.wikipedia.org/wiki/Multiverse" : topic.id == 'dark-energy' ? "https://en.wikipedia.org/wiki/Dark_energy" : topic.id == 'cosmic-inflation' ? "https://en.wikipedia.org/wiki/Cosmic_inflation" : topic.id == 'primordial-black-holes' ? "https://en.wikipedia.org/wiki/Primordial_black_hole" : "https://en.wikipedia.org/wiki/Cosmic_string"}`}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="w-[26%] px-4 py-2 bg-blue-700/40 hover:bg-blue-600/50 rounded-lg transition-colors duration-300 flex items-center">
+                              className="w-[35%] px-4 py-2 bg-blue-700/40 hover:bg-blue-600/50 rounded-lg transition-colors duration-300 flex items-center">
 
                                 <span>Dive Deeper</span>
 
