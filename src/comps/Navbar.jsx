@@ -127,137 +127,138 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar fixed top-0 left-0 w-full bg-opacity-50 backdrop-blur-sm p-4 flex justify-between items-center text-white z-50">
-      {/* Logo or brand name could go here */}
-      <div className="navlogo text-xl font-extrabold tracking-wide text-purple-300">
-        Celestial <span className="text-white">Horizons</span>
-      </div>
-      
-      {/* Mobile menu button */}
-      <div className="md:hidden">
-        <button 
-          onClick={toggleMenu}
-          className="focus:outline-none w-8 h-8 flex flex-col justify-center items-center relative"
-          aria-label="Toggle menu"
-        >
-          <span className="line1 block w-6 h-0.5 bg-white mb-1.5 transition-all duration-300"></span>
-          <span className="line2 block w-6 h-0.5 bg-white mb-1.5 transition-all duration-300"></span>
-          <span className="line3 block w-6 h-0.5 bg-white transition-all duration-300"></span>
-        </button>
-      </div>
-      
-      {/* Desktop menu */}
-      <ul className='hidden md:flex justify-center gap-x-6 md:gap-x-8 lg:gap-x-12'>
-        <li className='desktop-options'>
-          <Link to="hero" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
-          Home
-          </Link>
-        </li>
-        <li className='desktop-options'>
-          <Link to="stars" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
-          Stars
-          </Link>
-        </li>
-        <li className='desktop-options'>
-          <Link to="constellations" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
-          Constellations
-          </Link>
-        </li>
-        <li className='desktop-options'>
-          <Link to="galaxies" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
-          Galaxies
-          </Link>
-        </li>
-        <li className='desktop-options'>
-          <Link to="academy" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
-          Academy
-          </Link>
-        </li>
-      </ul>
-      
+    <>
+      <nav className="navbar fixed top-0 left-0 w-full bg-opacity-50 backdrop-blur-sm p-4 flex justify-between items-center text-white z-50">
+        {/* Logo or brand name could go here */}
+        <div className="navlogo text-xl font-extrabold tracking-wide text-purple-300">
+          Celestial <span className="text-white">Horizons</span>
+        </div>
+        
+        {/* Mobile menu button */}
+        <div className="md:hidden">
+          <button 
+            onClick={toggleMenu}
+            className="focus:outline-none w-8 h-8 flex flex-col justify-center items-center relative"
+            aria-label="Toggle menu"
+          >
+            <span className="line1 block w-6 h-0.5 bg-white mb-1.5 transition-all duration-300"></span>
+            <span className="line2 block w-6 h-0.5 bg-white mb-1.5 transition-all duration-300"></span>
+            <span className="line3 block w-6 h-0.5 bg-white transition-all duration-300"></span>
+          </button>
+        </div>
+        
+        {/* Desktop menu */}
+        <ul className='hidden md:flex justify-center gap-x-6 md:gap-x-8 lg:gap-x-12'>
+          <li className='desktop-options'>
+            <Link to="hero" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
+            Home
+            </Link>
+          </li>
+          <li className='desktop-options'>
+            <Link to="stars" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
+            Stars
+            </Link>
+          </li>
+          <li className='desktop-options'>
+            <Link to="constellations" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
+            Constellations
+            </Link>
+          </li>
+          <li className='desktop-options'>
+            <Link to="galaxies" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
+            Galaxies
+            </Link>
+          </li>
+          <li className='desktop-options'>
+            <Link to="academy" smooth={true} duration={1000} className="cursor-pointer hover:text-purple-400 transition duration-200">
+            Academy
+            </Link>
+          </li>
+        </ul>
+      </nav>
+
       {/* Mobile menu */}
       <div 
-        ref={mobileMenuRef}
-        className={`mobile-menu-container fixed top-16 left-0 right-0 h-55 bottom-0 bg-gradient-to-t from-transparent via-purple-500/50 to-transparent p-4 md:hidden transform ${menuOpen ? "" : "pointer-events-none"}`}
-        style={{zIndex: 40}}
+      ref={mobileMenuRef}
+      className={`mobile-menu-container fixed top-15.5 left-0 right-0 bottom-0 h-55 border-t-2 border-purple-400 bg-opacity-50 backdrop-blur-sm p-4 z-50 md:hidden transform ${menuOpen ? "" : "pointer-events-none"}`}
       >
-        <ul className='flex flex-col space-y-1 font-semibold text-white'
-        style={{
-          textShadow: `
-            -1px -1px 0 black,
-             1px -1px 0 black,
-            -1px  1px 0 black,
-             1px  1px 0 black
-          `
-        }}
-        >
-          <li className='mobile-options'>
-            <Link 
-              to="hero" 
-              smooth={true} 
-              duration={1000} 
-              className="block text-lg cursor-pointer hover:text-purple-400 transition duration-200"
-              onClick={closeMenu}
-            >
-              Home
-            </Link>
-          </li>
-          <div className='h-0.5 bg-gradient-to-l from-transparent to-purple-500/70 mobile-options-divider'></div>
-          
-          <li className='mobile-options'>
-            <Link 
-              to="stars" 
-              smooth={true} 
-              duration={1000} 
-              className="block text-lg cursor-pointer hover:text-purple-400 transition duration-200"
-              onClick={closeMenu}
-            >
-              Stars
-            </Link>
-          </li>
-          <div className='h-0.5 bg-gradient-to-l from-transparent to-purple-500/70 mobile-options-divider'></div>
+      <ul className='flex flex-col space-y-1 font-semibold text-white'
+      style={{
+        textShadow: `
+          -1px -1px 0 black,
+          1px -1px 0 black,
+          -1px  1px 0 black,
+          1px  1px 0 black
+        `
+      }}
+      >
+        <li className='mobile-options'>
+          <Link 
+            to="hero" 
+            smooth={true} 
+            duration={1000} 
+            className="block text-lg cursor-pointer hover:text-purple-400 transition duration-200"
+            onClick={closeMenu}
+          >
+            Home
+          </Link>
+        </li>
+        <div className='h-0.5 bg-gradient-to-l from-transparent to-purple-400 mobile-options-divider'></div>
+        
+        <li className='mobile-options'>
+          <Link 
+            to="stars" 
+            smooth={true} 
+            duration={1000} 
+            className="block text-lg cursor-pointer hover:text-purple-400 transition duration-200"
+            onClick={closeMenu}
+          >
+            Stars
+          </Link>
+        </li>
+        <div className='h-0.5 bg-gradient-to-l from-transparent to-purple-400 mobile-options-divider'></div>
 
-          <li className='mobile-options'>
-            <Link 
-              to="constellations" 
-              smooth={true} 
-              duration={1000} 
-              className="block text-lg cursor-pointer hover:text-purple-400 transition duration-200"
-              onClick={closeMenu}
-            >
-              Constellations
-            </Link>
-          </li>
-          <div className='h-0.5 bg-gradient-to-l from-transparent to-purple-500/70 mobile-options-divider'></div>
+        <li className='mobile-options'>
+          <Link 
+            to="constellations" 
+            smooth={true} 
+            duration={1000} 
+            className="block text-lg cursor-pointer hover:text-purple-400 transition duration-200"
+            onClick={closeMenu}
+          >
+            Constellations
+          </Link>
+        </li>
+        <div className='h-0.5 bg-gradient-to-l from-transparent to-purple-400 mobile-options-divider'></div>
 
-          <li className='mobile-options'>
-            <Link 
-              to="galaxies" 
-              smooth={true} 
-              duration={1000} 
-              className="block text-lg cursor-pointer hover:text-purple-400 transition duration-200"
-              onClick={closeMenu}
-            >
-              Galaxies
-            </Link>
-          </li>
-          <div className='h-0.5 bg-gradient-to-l from-transparent to-purple-500/70 mobile-options-divider'></div>
-          
-          <li className='mobile-options'>
-            <Link 
-              to="academy" 
-              smooth={true} 
-              duration={1000} 
-              className="block text-lg cursor-pointer hover:text-purple-400 transition duration-200"
-              onClick={closeMenu}
-            >
-              Academy
-            </Link>
-          </li>
-          <div className='h-0.5 bg-gradient-to-l from-transparent to-purple-500/70 mobile-options-divider'></div>
-        </ul>
+        <li className='mobile-options'>
+          <Link 
+            to="galaxies" 
+            smooth={true} 
+            duration={1000} 
+            className="block text-lg cursor-pointer hover:text-purple-400 transition duration-200"
+            onClick={closeMenu}
+          >
+            Galaxies
+          </Link>
+        </li>
+        <div className='h-0.5 bg-gradient-to-l from-transparent to-purple-400 mobile-options-divider'></div>
+        
+        <li className='mobile-options'>
+          <Link 
+            to="academy" 
+            smooth={true} 
+            duration={1000} 
+            className="block text-lg cursor-pointer hover:text-purple-400 transition duration-200"
+            onClick={closeMenu}
+          >
+            Academy
+          </Link>
+        </li>
+        <div className='h-0.5 bg-gradient-to-l from-transparent to-purple-400 mobile-options-divider'></div>
+      </ul>
       </div>
-    </nav>
+    </>
   );
 };
 

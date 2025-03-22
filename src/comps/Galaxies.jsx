@@ -122,7 +122,7 @@ const GalaxiesPage = () => {
     gsap.from(".formationdiv",{
       x:-200,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".formationdiv",
         markers:false,
@@ -133,7 +133,7 @@ const GalaxiesPage = () => {
     gsap.from(".evolutiondiv",{
       x:200,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".evolutiondiv",
         markers:false,
@@ -144,7 +144,7 @@ const GalaxiesPage = () => {
     gsap.from(".futurediv",{
       x:-200,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".futurediv",
         markers:false,

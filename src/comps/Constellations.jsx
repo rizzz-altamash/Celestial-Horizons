@@ -122,7 +122,7 @@ const ConstellationsPage = () => {
     gsap.from(".ancientdiv",{
       x:-200,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".ancientdiv",
         markers:false,
@@ -133,7 +133,7 @@ const ConstellationsPage = () => {
     gsap.from(".mythologicaldiv",{
       x:200,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".mythologicaldiv",
         markers:false,
@@ -144,7 +144,7 @@ const ConstellationsPage = () => {
     gsap.from(".agriculturaldiv",{
       x:-200,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".agriculturaldiv",
         markers:false,

@@ -122,7 +122,7 @@ const StarsPage = () => {
     gsap.from(".birthdiv",{
       x:-200,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".birthdiv",
         markers:false,
@@ -133,7 +133,7 @@ const StarsPage = () => {
     gsap.from(".lifediv",{
       x:200,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".lifediv",
         markers:false,
@@ -144,7 +144,7 @@ const StarsPage = () => {
     gsap.from(".deathdiv",{
       x:-200,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".deathdiv",
         markers:false,
