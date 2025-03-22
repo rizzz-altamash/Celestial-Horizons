@@ -498,7 +498,7 @@ const CosmicAcademyPage = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Side Content - Quick Tips */}
               <div className="lg:col-span-1">
-                <div className="nebula-card p-6 rounded-2xl relative overflow-hidden bg-gradient-to-b from-teal-900/40 to-blue-900/40 border border-teal-500/30 h-[40.4rem]">
+                <div className="nebula-card p-6 rounded-2xl relative overflow-hidden bg-gradient-to-b from-teal-900/40 to-blue-900/40 border border-teal-500/30 min-h-[30rem] lg:h-[40.4rem]">
                   <h3 className="text-2xl font-semibold mb-6 text-teal-200">
                     Quick Tips for Beginners
                   </h3>

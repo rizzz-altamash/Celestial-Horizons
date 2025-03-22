@@ -381,7 +381,7 @@ const GalaxiesPage = () => {
       x:-200,
       y:100,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".conceptstab",
         markers:false,
@@ -392,7 +392,7 @@ const GalaxiesPage = () => {
     gsap.from(".mythologytab",{
       y:100,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".mythologytab",
         markers:false,
@@ -404,7 +404,7 @@ const GalaxiesPage = () => {
       x:200,
       y:100,
       opacity:0,
-      duration:1.5,
+      duration:1,
       scrollTrigger:{
         trigger:".telescopetab",
         markers:false,
