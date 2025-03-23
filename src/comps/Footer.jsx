@@ -112,7 +112,7 @@ const Footer = () => {
             {/* Contact Info */}
             <div>
               <h4 className="text-2xl font-semibold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300">
-                Contact Us
+                Contact Me
               </h4>
               <ul className="space-y-4">
                 <li className="text-purple-300 flex items-start">

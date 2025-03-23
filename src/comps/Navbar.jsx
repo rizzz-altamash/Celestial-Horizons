@@ -180,7 +180,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div 
       ref={mobileMenuRef}
-      className={`mobile-menu-container fixed top-15.5 left-0 right-0 bottom-0 h-55 border-t-2 border-purple-400 bg-opacity-50 backdrop-blur-sm p-4 z-50 md:hidden transform ${menuOpen ? "" : "pointer-events-none"}`}
+      className={`mobile-menu-container fixed top-15.5 left-0 right-0 bottom-0 h-51 border-t-2 border-purple-400 bg-opacity-50 backdrop-blur-sm p-4 z-50 md:hidden transform ${menuOpen ? "" : "pointer-events-none"}`}
       >
       <ul className='flex flex-col space-y-1 font-semibold text-white'
       style={{
